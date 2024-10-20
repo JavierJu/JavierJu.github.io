@@ -1,5 +1,5 @@
 ---
-title: "Smart Farm"
+title: "SmartFarm"
 layout: category
 permalink: /categories/SmartFarm/
 author_profile: true

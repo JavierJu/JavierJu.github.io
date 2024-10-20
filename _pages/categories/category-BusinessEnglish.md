@@ -1,5 +1,5 @@
 ---
-title: "Business English"
+title: "BusinessEnglish"
 layout: category
 permalink: /categories/BusinessEnglish/
 author_profile: true

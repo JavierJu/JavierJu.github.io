@@ -33,15 +33,13 @@ categories:
       url: /categories/React/
     - title: "Node"
       url: /categories/Node/
-
   - title: "Projects"
     children:
-      - title: "Github Blog"
+      - title: "GithubBlog"
         url: /categories/GithubBlog/
-      - title: "Smart Farm"
+      - title: "SmartFarm"
         url: /categories/SmartFarm/
-
   - title: "Studying"
     children:
-      - title: "Business English"
+      - title: "BusinessEnglish"
         url: /categories/BusinessEnglish/
