@@ -3,11 +3,11 @@ title: "[포스팅 테스트] 테스트"
 excerpt: "테스트"
 
 categories:
-  - BusinessEnglish
+  - Business English
 tags:
   - [Business English, test]
 
-permalink: /BusinessEnglish/posting-test3/
+permalink: /Business English/posting-test3/
 
 toc: true
 toc_sticky: true

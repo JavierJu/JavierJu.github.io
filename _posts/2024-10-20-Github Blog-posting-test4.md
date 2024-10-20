@@ -3,11 +3,11 @@ title: "[포스팅 테스트] 테스트"
 excerpt: "테스트"
 
 categories:
-  - GithubBlog
+  - Github Blog
 tags:
   - [Github Blog, test]
 
-permalink: /GithubBlog/posting-test4/
+permalink: /Github Blog/posting-test4/
 
 toc: true
 toc_sticky: true
