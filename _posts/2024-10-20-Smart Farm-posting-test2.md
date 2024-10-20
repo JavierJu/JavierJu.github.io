@@ -3,11 +3,11 @@ title: "[포스팅 테스트] 테스트"
 excerpt: "테스트"
 
 categories:
-  - SmartFarm
+  - Smart Farm
 tags:
   - [Smart Farm, test]
 
-permalink: /SmartFarm/posting-test2/
+permalink: /Smart Farm/posting-test2/
 
 toc: true
 toc_sticky: true
