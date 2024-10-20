@@ -105,7 +105,7 @@ author:
   # email            : "boswkd@gmail.com"
 
   links: # 사이트 링크
-    - label: "Email"
+    - label: ""
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:boswkd@gmail.com"
 #     - label: "Website"
@@ -117,13 +117,13 @@ author:
 #     - label: "Facebook"
 #       icon: "fab fa-fw fa-facebook-square"
 #       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://JavierJu.github.com/"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://JavierJu.github.com/"
 #     - label: "Instagram"
 #       icon: "fab fa-fw fa-instagram"
 #       url: "https://www.instagram.com/"
-    - label: "LinkedIn"
+    - label: ""
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/kwanghyun-ju-058ba1215/"
 

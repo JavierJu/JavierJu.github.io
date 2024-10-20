@@ -3,7 +3,7 @@ title: "Node"
 layout: category
 permalink: /categories/Node/
 author_profile: true
-taxonomy: Node1
+taxonomy: Node
 sidebar:
   nav: "categories"
 ---
