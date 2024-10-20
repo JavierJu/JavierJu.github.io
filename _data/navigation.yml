@@ -35,11 +35,11 @@ categories:
       url: /categories/Node/
   - title: "Projects"
     children:
-      - title: "GithubBlog"
-        url: /categories/GithubBlog/
+      - title: "Github Blog"
+        url: /categories/Github Blog/
       - title: "Smart Farm"
         url: /categories/Smart Farm/
   - title: "Studying"
     children:
-      - title: "BusinessEnglish"
-        url: /categories/BusinessEnglish/
+      - title: "Business English"
+        url: /categories/Business English/
