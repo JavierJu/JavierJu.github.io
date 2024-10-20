@@ -105,9 +105,9 @@ author:
   # email            : "boswkd@gmail.com"
 
   links: # 사이트 링크
-    - label: ""
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:boswkd@gmail.com"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:boswkd@gmail.com"
 #     - label: "Website"
 #       icon: "fas fa-fw fa-link"
 #       # url: "https://your-website.com"
@@ -123,13 +123,16 @@ author:
 #     - label: "Instagram"
 #       icon: "fab fa-fw fa-instagram"
 #       url: "https://www.instagram.com/"
-    - label: ""
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/kwanghyun-ju-058ba1215/"
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://www.linkedin.com/in/kwanghyun-ju-058ba1215/"
 
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:boswkd@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -138,7 +141,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://JavierJu.github.com/"
+      url: "https://JavierJu.github.com/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -150,7 +153,7 @@ footer:
       # url:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      # url: "https://www.linkedin.com/in/kwanghyun-ju-058ba1215/"
+      url: "https://www.linkedin.com/in/kwanghyun-ju-058ba1215/"
       
 # Reading Files
 include:

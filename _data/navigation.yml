@@ -9,8 +9,11 @@ main:
   - title: "GitHub"
     url: https://github.com/JavierJu
 
-  - title: "Projects"
-    url: /projects/
+  # - title: "Projects"
+  #   url: /projects/
+
+  - title: "Portfolio"
+    url: /Portfolio/
 
   # - title: "Categories"
   #   url: /categories/
@@ -28,3 +31,5 @@ categories:
     url: /categories/React/
   - title: "Node"
     url: /categories/Node/
+  - title: "Projects"
+    url: /categories/Projects/
