@@ -1,5 +1,5 @@
 ---
-title: "Categories4"
+title: "React"
 layout: category
 permalink: /categories/categories4/
 author_profile: true

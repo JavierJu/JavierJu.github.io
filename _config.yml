@@ -98,16 +98,16 @@ analytics:
 
 # Site Author
 author:
-  name: "your name here" # 블로그 닉네임
+  name: "Javier Ju" # 블로그 닉네임
   avatar: "/assets/images/meee.png" # 블로그 프로필 사진
-  #   bio              : "hi all!"
-  # location         : "Seoul, Korea"
-  # email            : "youremailhere@xxxxxx.com"
+  bio              : "hi all!"
+  location         : "Hyogo, Japan"
+  email            : "boswkd@gmail.com"
 
   links: # 사이트 링크
-#     - label: "Email"
-#       icon: "fas fa-fw fa-envelope-square"
-#       # url: "mailto:your.name@email.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:boswkd@gmail.com"
 #     - label: "Website"
 #       icon: "fas fa-fw fa-link"
 #       # url: "https://your-website.com"
@@ -117,12 +117,15 @@ author:
 #     - label: "Facebook"
 #       icon: "fab fa-fw fa-facebook-square"
 #       # url: "https://facebook.com/"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://JavierJu.github.com/"
 #     - label: "Instagram"
 #       icon: "fab fa-fw fa-instagram"
 #       url: "https://www.instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/kwanghyun-ju-058ba1215/"
 
 # Site Footer
 footer:
