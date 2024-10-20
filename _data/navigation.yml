@@ -32,6 +32,7 @@ categories:
     - title: "React"
       url: /categories/React/
     - title: "Node"
+      url: /categories/Node/
 
   - title: "Projects"
     children:
