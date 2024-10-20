@@ -1,7 +1,7 @@
 ---
 title: "JavaScript"
 layout: category
-permalink: /categories/categories3/
+permalink: /categories/JavaScript/
 author_profile: true
 taxonomy: Categories3
 sidebar:

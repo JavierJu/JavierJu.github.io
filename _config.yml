@@ -99,10 +99,10 @@ analytics:
 # Site Author
 author:
   name: "Javier Ju" # 블로그 닉네임
-  avatar: "/assets/images/meee.png" # 블로그 프로필 사진
-  bio              : "hi all!"
-  location         : "Hyogo, Japan"
-  email            : "boswkd@gmail.com"
+  # avatar: "/assets/images/meee.png" # 블로그 프로필 사진
+  # bio              : "hi all!"
+  # location         : "Hyogo, Japan"
+  # email            : "boswkd@gmail.com"
 
   links: # 사이트 링크
     - label: "Email"
@@ -138,7 +138,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://JavierJu.github.com/"
+      # url: "https://JavierJu.github.com/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -150,7 +150,7 @@ footer:
       # url:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/kwanghyun-ju-058ba1215/"
+      # url: "https://www.linkedin.com/in/kwanghyun-ju-058ba1215/"
       
 # Reading Files
 include:
