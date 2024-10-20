@@ -19,12 +19,12 @@ main:
 # 2022.02.15 sidebar update : simple ver.
 categories:
   - title: "HTML"
-    url: /categories/categories1/
+    url: /categories/HTML/
   - title: "CSS"
-    url: /categories/categories2/
+    url: /categories/CSS/
   - title: "JavaScript"
-    url: /categories/categories3/
+    url: /categories/JavaScript/
   - title: "React"
-    url: /categories/categories4/
+    url: /categories/React/
   - title: "Node"
     url: /categories/Node/
