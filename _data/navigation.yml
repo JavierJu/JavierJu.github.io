@@ -21,15 +21,26 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "HTML"
-    url: /categories/HTML/
-  - title: "CSS"
-    url: /categories/CSS/
-  - title: "JavaScript"
-    url: /categories/JavaScript/
-  - title: "React"
-    url: /categories/React/
-  - title: "Node"
-    url: /categories/Node/
+  - title: "Basics"
+    children:
+    - title: "HTML"
+      url: /categories/HTML/
+    - title: "CSS"
+      url: /categories/CSS/
+    - title: "JavaScript"
+      url: /categories/JavaScript/
+    - title: "React"
+      url: /categories/React/
+    - title: "Node"
+
   - title: "Projects"
-    url: /categories/Projects/
+    children:
+      - title: "Github Blog"
+        url: /categories/GithubBlog/
+      - title: "Smart Farm"
+        url: /categories/SmartFarm/
+
+  - title: "Studying"
+    children:
+      - title: "Business English"
+        url: /categories/BusinessEnglish/
