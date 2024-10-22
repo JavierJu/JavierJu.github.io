@@ -1,9 +1,9 @@
 ---
-title: "CSS"
+title: "LAMP"
 layout: category
-permalink: /categories/CSS/
+permalink: /categories/LAMP/
 author_profile: true
-taxonomy: CSS
+taxonomy: LAMP
 sidebar:
   nav: "categories"
 ---

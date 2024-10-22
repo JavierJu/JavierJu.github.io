@@ -1,13 +1,13 @@
 ---
-title: "[포스팅 테스트] 테스트"
+title: "[WEB 포스팅 테스트] WEB 테스트"
 excerpt: "테스트"
 
 categories:
-  - Business English
+  - Web
 tags:
-  - [Business English, test]
+  - [Web, test]
 
-permalink: /Business English/posting-test3/
+permalink: /Web/posting-test1/
 
 toc: true
 toc_sticky: true
