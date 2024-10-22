@@ -23,23 +23,12 @@ main:
 categories:
   - title: "Basics"
     children:
-    - title: "HTML"
-      url: /categories/HTML/
-    - title: "CSS"
-      url: /categories/CSS/
-    - title: "JavaScript"
-      url: /categories/JavaScript/
-    - title: "React"
-      url: /categories/React/
-    - title: "Node"
-      url: /categories/Node/
+    - title: "LAMP"
+      url: /categories/LAMP/
+    - title: "Web"
+      url: /categories/Web/
+
   - title: "Projects"
     children:
-      - title: "Github Blog"
-        url: /categories/Github Blog/
       - title: "Smart Farm"
         url: /categories/Smart Farm/
-  - title: "Studying"
-    children:
-      - title: "Business English"
-        url: /categories/Business English/
