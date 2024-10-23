@@ -3,7 +3,7 @@ title: "[AWS 웹서버 구축] AWS 테스트"
 excerpt: "테스트"
 
 categories:
-  - LAMP
+  - AWS
 tags:
   - [AWS, test]
 
@@ -2716,5 +2716,159 @@ AWS에서 사용 중인 환경도 APM 또는 LAMP 스택의 한 예입니다.
 
 
 
+아두이노 센서데이터가 AWS 인스턴스 MySQL에 전송되고 있는데, 시간이 안맞네. 현재 웹서버 리눅스와 MySQL에 적용되고 있는 시간을 확인할 수 있을까?
 
+ChatGPT의 말:
+ChatGPT
+AWS 인스턴스의 리눅스 시스템과 MySQL에 설정된 시간을 확인하려면 각각 다음 명령어를 사용하여 시간을 확인할 수 있습니다.
+
+1. 리눅스 시스템 시간 확인
+AWS 인스턴스의 리눅스 시간(서버 시간)을 확인하려면 아래 명령어를 입력하세요:
+
+bash
+코드 복사
+date
+이 명령은 서버에서 현재 적용되고 있는 시간과 타임존을 보여줍니다.
+
+2. MySQL 시간 확인
+MySQL에서 현재 시간과 타임존을 확인하려면 MySQL에 접속한 후 아래 명령어를 실행하세요:
+
+sql
+코드 복사
+SELECT NOW();
+이 명령어는 MySQL 서버가 사용하는 현재 시간을 반환합니다.
+
+또한, MySQL에서 설정된 타임존을 확인하려면 아래 명령어를 실행하세요:
+
+sql
+코드 복사
+SELECT @@global.time_zone, @@session.time_zone;
+3. 타임존 설정 변경 방법
+만약 서버나 MySQL의 타임존이 맞지 않다면, 다음 방법으로 설정을 변경할 수 있습니다.
+
+리눅스 타임존 변경:
+bash
+코드 복사
+sudo timedatectl set-timezone Asia/Tokyo
+이 명령은 서버의 타임존을 일본 표준시(JST)로 변경합니다. 다른 지역으로 변경하고 싶다면 해당 타임존을 지정하면 됩니다.
+
+MySQL 타임존 변경: MySQL의 타임존을 시스템 시간과 맞추려면, MySQL 설정 파일 (my.cnf)을 편집해 아래와 같이 추가하세요:
+bash
+코드 복사
+default_time_zone = 'SYSTEM'
+MySQL을 재시작한 후 이 설정이 적용됩니다.
+
+
+
+
+
+
+나의 말:
+MySQL 설정 파일 (my.cnf)은 어떻게 편집하지? 재시작 명령어는?
+ChatGPT의 말:
+ChatGPT
+MySQL 설정 파일인 my.cnf를 편집하고 MySQL을 재시작하는 방법은 다음과 같습니다.
+
+1. MySQL 설정 파일 (my.cnf) 편집
+일반적으로 MySQL 설정 파일은 /etc/mysql/my.cnf 또는 /etc/my.cnf에 위치해 있습니다. 해당 파일을 편집하려면 다음 명령어를 사용하세요:
+
+bash
+코드 복사
+sudo nano /etc/mysql/my.cnf
+이 파일을 열고, [mysqld] 섹션에 아래 구문을 추가하여 MySQL이 서버의 시스템 시간을 따르도록 설정합니다:
+
+ini
+코드 복사
+[mysqld]
+default_time_zone = 'SYSTEM'
+편집을 완료한 후 Ctrl + X, Y, Enter를 눌러 저장하고 파일을 닫습니다.
+
+2. MySQL 재시작 명령어
+설정이 완료되면 MySQL 서버를 재시작하여 적용된 설정을 반영해야 합니다. 다음 명령어로 MySQL을 재시작할 수 있습니다:
+
+bash
+코드 복사
+sudo systemctl restart mysql
+혹은 만약 systemctl이 아닌 service 명령어를 사용하는 경우 다음 명령을 사용합니다:
+
+bash
+코드 복사
+sudo service mysql restart
+이 명령을 실행하면 MySQL 서버가 재시작되며 설정된 타임존이 반영됩니다.
+
+3. 설정 적용 확인
+MySQL이 정상적으로 재시작되었는지 확인하려면 다시 MySQL에 접속한 후 타임존을 확인하는 명령어를 실행해 확인합니다:
+
+sql
+코드 복사
+SELECT @@global.time_zone, @@session.time_zone;
+
+
+
+
+
+나의 말:
+ubuntu@ip-172-31-32-50:/var/www/html$ date
+Tue Oct 22 17:52:05 JST 2024
+ubuntu@ip-172-31-32-50:/var/www/html$ sudo mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 64
+Server version: 8.0.39-0ubuntu0.24.04.2 (Ubuntu)
+
+Copyright (c) 2000, 2024, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> SELECT @@global.time_zone, @@session.time_zone;
++--------------------+---------------------+
+| @@global.time_zone | @@session.time_zone |
++--------------------+---------------------+
+| SYSTEM             | SYSTEM              |
++--------------------+---------------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT NOW();
++---------------------+
+| NOW()               |
++---------------------+
+| 2024-10-22 08:52:35 |
++---------------------+
+1 row in set (0.00 sec)
+
+mysql> 
+ChatGPT의 말:
+ChatGPT
+현재 MySQL의 타임존이 시스템 타임존(SYSTEM)으로 설정되어 있지만, MySQL이 표시하는 시간(NOW() 값)이 시스템 시간(JST)과 일치하지 않는 것으로 보입니다. MySQL이 UTC 시간을 따르고 있기 때문입니다.
+
+시스템 시간은 **JST (UTC+9)**로 설정되어 있고, MySQL에서 보이는 시간은 UTC 기준으로 출력되고 있습니다. MySQL에서 시스템 타임존을 따르도록 설정했지만, 실제로는 여전히 UTC 시간을 사용 중인 것 같습니다.
+
+이 문제를 해결하려면 MySQL의 타임존 데이터를 시스템에 맞게 업데이트해야 합니다.
+
+1. MySQL 타임존 데이터 업데이트
+MySQL에 타임존 정보를 정확히 설정하려면 mysql_tzinfo_to_sql 명령을 사용해 타임존 데이터를 MySQL에 입력합니다.
+
+bash
+코드 복사
+sudo mysql_tzinfo_to_sql /usr/share/zoneinfo | sudo mysql -u root -p mysql
+이 명령은 시스템 타임존 데이터를 MySQL로 가져옵니다.
+
+2. MySQL 재시작
+타임존 데이터가 적용되면 MySQL 서버를 다시 재시작해야 합니다.
+
+bash
+코드 복사
+sudo systemctl restart mysql
+3. 세션 및 글로벌 타임존 확인
+다시 MySQL에 접속한 후 아래 명령으로 타임존과 시간을 확인하세요.
+
+sql
+코드 복사
+SELECT @@global.time_zone, @@session.time_zone;
+SELECT NOW();
+이제 MySQL에서 JST 시간에 맞춰 시간을 표시할 것입니다.
 

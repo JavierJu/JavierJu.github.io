@@ -1,9 +1,9 @@
 ---
-title: "LAMP"
+title: "AWS"
 layout: category
-permalink: /categories/LAMP/
+permalink: /categories/AWS/
 author_profile: true
-taxonomy: LAMP
+taxonomy: AWS
 sidebar:
   nav: "categories"
 ---

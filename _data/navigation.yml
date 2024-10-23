@@ -23,8 +23,8 @@ main:
 categories:
   - title: "Basics"
     children:
-    - title: "LAMP"
-      url: /categories/LAMP/
+    - title: "AWS"
+      url: /categories/AWS/
     - title: "Web"
       url: /categories/Web/
 

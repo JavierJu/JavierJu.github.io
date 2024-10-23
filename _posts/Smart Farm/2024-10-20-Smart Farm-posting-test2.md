@@ -1,5 +1,5 @@
 ---
-title: "[Smart Farm 포스팅 테스트] Smart Farm 테스트"
+title: "[Smart Farm] Webapplication for Arduino sensor data"
 excerpt: "테스트"
 
 categories:
