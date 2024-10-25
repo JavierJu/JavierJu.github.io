@@ -1,9 +1,9 @@
 ---
-title: "Web"
+title: "WEB"
 layout: category
-permalink: /categories/Web/
+permalink: /categories/WEB/
 author_profile: true
-taxonomy: Web
+taxonomy: WEB
 sidebar:
   nav: "categories"
 ---
