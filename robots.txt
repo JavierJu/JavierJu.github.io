@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://javierju.github.io/sitemap.xml
