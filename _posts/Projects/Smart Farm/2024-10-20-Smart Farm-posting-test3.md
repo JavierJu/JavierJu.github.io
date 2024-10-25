@@ -7,7 +7,7 @@ categories:
 tags:
   - [Smart Farm, Waterpump remote control]
 
-permalink: /Smart Farm/posting-test2/
+permalink: /Smart Farm/posting-test3/
 
 toc: true
 toc_sticky: true
