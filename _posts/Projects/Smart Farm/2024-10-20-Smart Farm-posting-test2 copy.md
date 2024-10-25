@@ -5,7 +5,7 @@ excerpt: "테스트"
 categories:
   - Smart Farm
 tags:
-  - [Smart Farm, test]
+  - [Smart Farm, Waterpump remote control]
 
 permalink: /Smart Farm/posting-test2/
 

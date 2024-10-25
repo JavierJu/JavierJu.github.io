@@ -7,7 +7,7 @@ categories:
 tags:
   - [AWS, test]
 
-permalink: /LAMP/posting-test1/
+permalink: /AWS/posting-test1/
 
 toc: true
 toc_sticky: true
