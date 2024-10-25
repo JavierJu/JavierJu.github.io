@@ -24,7 +24,7 @@ title_separator: "&#124;"
 subtitle: # site tagline that appears below site title in masthead
 name: "JavierJu" # 블로그 닉네임 설정
 description: "this is my blog!" # 블로그 설명
-url: "https://javierju.github.io/" # 블로그 URL
+url: "https://javierju.github.io" # 블로그 URL
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "JavierJu/JavierJu.github.io" # GitHub Repo 이름
 teaser: #
@@ -141,7 +141,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://JavierJu.github.com/"
+      url: "https://JavierJu.github.com"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -153,7 +153,7 @@ footer:
       # url:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/kwanghyun-ju-058ba1215/"
+      url: "https://www.linkedin.com/in/kwanghyun-ju-058ba1215"
       
 # Reading Files
 include:
