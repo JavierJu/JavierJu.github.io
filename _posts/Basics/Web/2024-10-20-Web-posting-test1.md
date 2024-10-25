@@ -3,11 +3,11 @@ title: "[WEB 포스팅 테스트] WEB 테스트"
 excerpt: "테스트"
 
 categories:
-  - Web
+  - WEB
 tags:
   - [Web, test]
 
-permalink: /Web/posting-test1/
+permalink: /WEB/posting-test1/
 
 toc: true
 toc_sticky: true
