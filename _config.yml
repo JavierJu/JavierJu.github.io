@@ -23,7 +23,7 @@ title: "JavierJu Devlog" # 상단 헤더에 보이는 블로그 명
 title_separator: "&#124;"
 subtitle: # site tagline that appears below site title in masthead
 name: "JavierJu" # 블로그 닉네임 설정
-description: "this is my blog!" # 블로그 설명
+description: "40대 아재의 프로그래밍 독학 블로그!" # 블로그 설명
 url: "https://javierju.github.io" # 블로그 URL
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "JavierJu/JavierJu.github.io" # GitHub Repo 이름
