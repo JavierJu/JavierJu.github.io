@@ -12,8 +12,8 @@ permalink: /AWS/amazon-linux-vs-ubuntu/
 toc: true
 toc_sticky: true
 
-date: 2024-10-29
-last_modified_at: 2024-10-29
+date: 2024-10-28
+last_modified_at: 2024-10-28
 ---
 
 Amazon Linux와 Ubuntu에 대해 어떤 선택이 좋을지 ChatGPT와 나눈 대화를 정리하였다. AWS에서 서버를 운영하기에 적합한 OS 선택에 고민이 있다면 도움이 될 것이다. 현재 나의 경우 AWS 웹서버에 Ubuntu를 선택하여 사용 중이다.
