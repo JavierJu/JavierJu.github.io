@@ -15,9 +15,9 @@ toc_sticky: true
 date: 2024-10-26
 last_modified_at: 2024-10-26
 ---
-Git Blog 셋업 시 Favicon 설정이 필요해서 Favicon이 무엇인지 ChatGPT에 문답한 내용을 정리하였습니다.
+Git Blog 셋업 시 Favicon 설정이 필요해서 Favicon이 무엇인지 ChatGPT에 문답한 내용을 정리하였다.
 
-[https://www.favicon-generator.org/](https://www.favicon-generator.org/) 접속하여 원하는 이미지를 favicon으로 생성하여 사용합니다.
+[https://www.favicon-generator.org/](https://www.favicon-generator.org/) 접속하여 원하는 이미지를 favicon으로 생성하여 사용한다.
 
 # Favicon(파비콘)이란?
 

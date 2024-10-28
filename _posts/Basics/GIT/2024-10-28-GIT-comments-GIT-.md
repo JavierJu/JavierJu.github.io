@@ -15,7 +15,7 @@ toc_sticky: true
 date: 2024-10-28
 last_modified_at: 2024-10-28
 ---
-GitHub 블로그에 댓글 기능을 추가하고자 외부 서비스와 직접 구현 방식을 비교하고 Utterances, Disqus 등 옵션별 특징에 대해 ChatGPT와 문답한 내용을 정리하였습니다. 현재 이 블로그는 Utterances를 적용하고 있습니다.
+GitHub 블로그에 댓글 기능을 추가하고자 외부 서비스와 직접 구현 방식을 비교하고 Utterances, Disqus 등 옵션별 특징에 대해 ChatGPT와 문답한 내용을 정리하였다. 현재 이 블로그는 Utterances를 적용하고 있다.
 
 # 블로그에 댓글 기능 추가하기
 
