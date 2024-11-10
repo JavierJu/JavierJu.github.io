@@ -33,9 +33,9 @@ categories:
   - title: "Projects"
     children:
       - title: "Smart Farm"
-        url: /categories/SmartFarm/
+        url: /categories/Smart Farm/
 
-  - title: "ETC"
+  - title: "Etc"
     children:
-      - title: "To Be Developer"
+      - title: "TBD"
         url: /categories/TBD/

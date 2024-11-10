@@ -1,13 +1,13 @@
 ---
-title: "[Smart Farm] 외부 IP에서 아두이노의 릴레이를 제어하는 웹 애플리케이션 구축
+title: "[Smart Farm] 외부 IP에서 아두이노의 릴레이를 제어하는 웹 애플리케이션 구축"
 excerpt: "외부 IP에서 아두이노의 릴레이를 제어하는 웹 애플리케이션 구축 경험을 공유합니다."
 
 categories:
-  - SmartFarm
+  - Smart Farm
 tags:
   - [Smart Farm, Arduino, Web Development, IoT]
 
-permalink: /SmartFarm/web-app-arduino/
+permalink: /Smart Farm/web-app-arduino/
 
 toc: true
 toc_sticky: true
