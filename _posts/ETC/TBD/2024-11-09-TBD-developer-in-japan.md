@@ -12,8 +12,8 @@ permalink: /TBD/developer-in-japan/
 toc: true
 toc_sticky: true
 
-date: 2024-11-10
-last_modified_at: 2024-11-10
+date: 2024-11-09
+last_modified_at: 2024-11-09
 ---
 
 ## 경영학 전공의 15년 해외영업 경력

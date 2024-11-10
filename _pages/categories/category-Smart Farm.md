@@ -1,9 +1,9 @@
 ---
 title: "Smart Farm"
 layout: category
-permalink: /categories/Smart Farm/
+permalink: /categories/SmartFarm/
 author_profile: true
-taxonomy: Smart Farm
+taxonomy: SmartFarm
 sidebar:
   nav: "categories"
 ---
