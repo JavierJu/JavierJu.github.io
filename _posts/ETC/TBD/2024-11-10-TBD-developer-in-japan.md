@@ -4,7 +4,6 @@ excerpt: "40대 비전공자 아재가 일본에서 IT 업계로 전환할 수 �
 
 categories:
   - TBD
-
 tags:
   - [Career Change, IoT, Programming, Japan, Smart Farming]
 
