@@ -29,6 +29,8 @@ categories:
       url: /categories/WEB/
     - title: "GIT"
       url: /categories/GIT/
+    - title: "VS Code"
+      url: /categories/VS Code/
 
   - title: "Projects"
     children:
