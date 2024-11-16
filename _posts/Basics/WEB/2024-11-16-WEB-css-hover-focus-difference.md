@@ -8,8 +8,8 @@ tags:
 permalink: /WEB/css-hover-focus-difference/
 toc: true
 toc_sticky: true
-date: 2024-11-17
-last_modified_at: 2024-11-17
+date: 2024-11-16
+last_modified_at: 2024-11-16
 ---
 
 CSS에서 웹 요소의 사용자 상호작용 상태를 정의하는 데 사용되는 두 가지 주요 의사 클래스는 `hover`와 `focus`입니다. 이 글에서는 각 클래스의 정의와 사용법, 그리고 이 둘의 차이점에 대해 설명합니다.
