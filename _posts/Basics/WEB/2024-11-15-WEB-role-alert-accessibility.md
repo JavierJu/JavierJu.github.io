@@ -12,8 +12,8 @@ permalink: /WEB/role-alert-accessibility/
 toc: true
 toc_sticky: true
 
-date: 2024-11-16
-last_modified_at: 2024-11-16
+date: 2024-11-15
+last_modified_at: 2024-11-15
 ---
 
 ## 웹 접근성을 위한 `role="alert"` 속성의 역할과 중요성
