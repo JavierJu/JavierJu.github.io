@@ -3,7 +3,7 @@ title: "[JavaScript] fetch API를 사용한 비동기 요청 방식"
 excerpt: "fetch API를 사용한 비동기 요청 방식의 구조와 그 역할에 대해 설명"
 
 categories:
-  - WEB
+  - JavaScript
 tags:
   - [JavaScript, fetch API]
 

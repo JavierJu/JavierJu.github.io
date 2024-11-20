@@ -3,11 +3,11 @@ title: "Bootstrap 그리드 시스템과 CSS Flexbox 비교: 각각의 장단점
 excerpt: "Bootstrap의 그리드 시스템과 CSS Flexbox를 비교하고, 각각의 특징과 장단점을 분석해 봅니다."
 
 categories:
-  - WEB
+  - Web
 tags:
   - [Bootstrap, CSS, Flexbox, Frontend Development, Responsive Design]
 
-permalink: /WEB/bootstrap-vs-flexbox/
+permalink: /Web/bootstrap-vs-flexbox/
 
 toc: true
 toc_sticky: true

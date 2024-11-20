@@ -2,10 +2,10 @@
 title: "CSS 의사 클래스: hover와 focus의 차이점"
 excerpt: "hover와 focus의 의사 클래스를 사용하여 웹 요소의 상호작용 상태를 정의하고 스타일링하는 방법에 대해 알아봅니다."
 categories:
-  - WEB
+  - Web
 tags:
   - [CSS, Frontend, Web Design, User Interaction, Pseudo-classes]
-permalink: /WEB/css-hover-focus-difference/
+permalink: /Web/css-hover-focus-difference/
 toc: true
 toc_sticky: true
 date: 2024-11-16

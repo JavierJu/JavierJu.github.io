@@ -2,7 +2,7 @@
 title: "JavaScript 변수: var, let, const의 차이와 사용법"
 excerpt: "JavaScript에서 사용하는 var, let, const 변수의 차이점과 각 변수의 사용 사례를 정리합니다."
 categories:
-  - WEB
+  - JavaScript
 tags:
   - [JavaScript, Programming, Variables, ES6]
 permalink: /JavaScript/var-let-const-differences/

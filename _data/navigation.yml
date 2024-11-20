@@ -23,21 +23,33 @@ main:
 categories:
   - title: "Basics"
     children:
-    - title: "AWS"
-      url: /categories/AWS/
-    - title: "WEB"
-      url: /categories/WEB/
-    - title: "GIT"
-      url: /categories/GIT/
-    - title: "VS Code"
-      url: /categories/VS Code/
+    - title: "Web"
+      url: /categories/Web/
+    - title: "JavaScript"
+      url: /categories/JavaScript/
+    - title: "TypeScript"
+      url: /categories/TypeScript/
+    - title: "React"
+      url: /categories/React/
+    - title: "Node"
+      url: /categories/Node/
 
+  - title: "Etc"
+    children:
+      - title: "AWS"
+        url: /categories/AWS/
+      - title: "GIT"
+        url: /categories/GIT/
+      - title: "VS Code"
+        url: /categories/VS Code/
+      - title: "TBD"
+        url: /categories/TBD/
+  
   - title: "Projects"
     children:
       - title: "Smart Farm"
         url: /categories/Smart Farm/
-
-  - title: "Etc"
-    children:
-      - title: "TBD"
-        url: /categories/TBD/
+      - title: "Clone Application"
+        url: /categories/Clone Application/
+      - title: "Simple Program Challenges"
+        url: /categories/Simple Program Challenges/

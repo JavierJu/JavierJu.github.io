@@ -2,10 +2,10 @@
 title: "Bootstrap 스타일링의 장단점: 클래스 기반 스타일 지정의 이점과 한계"
 excerpt: "Bootstrap을 활용한 클래스 기반 스타일링의 장점과 단점에 대해 알아보고, 이를 어떻게 효율적으로 관리할 수 있는지 논의합니다."
 categories:
-  - WEB
+  - Web
 tags:
   - [Bootstrap, CSS, Web Development, Best Practices, Frontend]
-permalink: /WEB/bootstrap-class-styling-pros-cons/
+permalink: /Web/bootstrap-class-styling-pros-cons/
 toc: true
 toc_sticky: true
 date: 2024-11-17
