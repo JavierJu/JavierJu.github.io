@@ -5,12 +5,12 @@
 title: "웹 접근성을 위한 role='alert' 속성의 역할과 중요성"
 excerpt: "role='alert' 속성을 활용하여 웹 접근성을 높이는 방법과 그 중요성에 대해 알아봅니다."
 categories:
-  - WEB
+  - JavaScript
 tags:
-  - [Accessibility, HTML, Web Standards, ARIA, Screen Reader]
-permalink: /WEB/role-alert-accessibility/
+  - [JavaScript, HTML, Web Standards, ARIA, Screen Reader]
+permalink: /JavaScript/role-alert-accessibility/
 toc: true
 toc_sticky: true
-date: 2024-11-14
-last_modified_at: 2024-11-14
+date: 2024-11-21
+last_modified_at: 2024-11-21
 ---
