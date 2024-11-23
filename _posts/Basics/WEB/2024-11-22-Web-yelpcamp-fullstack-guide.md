@@ -8,8 +8,8 @@ tags:
 permalink: /Web/yelpcamp-fullstack-guide/
 toc: true
 toc_sticky: true
-date: 2024-11-21
-last_modified_at: 2024-11-21
+date: 2024-11-22
+last_modified_at: 2024-11-22
 ---
 
 YelpCamp는 Node.js와 Express.js를 사용하여 풀스택 웹 개발 기술을 학습하기 위한 대표적인 프로젝트입니다. 이 프로젝트는 캠핑장을 리뷰하고 관리할 수 있는 플랫폼을 구축하는 과정을 통해, 실무에 가까운 경험을 제공합니다.  
