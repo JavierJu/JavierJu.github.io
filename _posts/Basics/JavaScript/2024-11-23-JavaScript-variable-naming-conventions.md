@@ -1,205 +1,93 @@
 ---
-title: "JavaScript 함수의 기초부터 응용까지: 완벽 가이드"
-excerpt: "JavaScript 함수의 기본 개념부터 매개변수, 반환값, 화살표 함수, 그리고 응용까지 자세히 살펴봅니다."
+title: "JavaScript 변수명 규칙: 카멜 표기법부터 상수 표기법까지"
+excerpt: "JavaScript에서 변수명을 작성할 때 사용하는 카멜 표기법(Camel Case)과 다른 주요 표기법들에 대해 알아보고, 각 표기법의 사용 사례와 장점을 살펴봅니다."
 categories:
   - JavaScript
 tags:
-  - [JavaScript, Functions, Programming Basics, Web Development]
-permalink: /JavaScript/function-basics-guide/
+  - [JavaScript, Coding Standards, Best Practices, Variables, Naming Conventions]
+permalink: /JavaScript/variable-naming-conventions/
 toc: true
 toc_sticky: true
-date: 2024-11-22
-last_modified_at: 2024-11-22
+date: 2024-11-23
+last_modified_at: 2024-11-23
 ---
 
-JavaScript에서 함수는 코드 재사용성과 유지보수성을 높여주는 중요한 요소입니다. 이 글에서는 함수의 정의, 매개변수와 반환값, 다양한 함수 스타일, 그리고 응용 사례까지 알아봅니다.
+### JavaScript 변수명 규칙: 왜 카멜 표기법을 사용할까?
 
----
-
-## 함수의 기본 구조
-
-JavaScript에서 함수는 아래와 같은 형식으로 정의됩니다.
-
-```js
-function 함수이름(매개변수1, 매개변수2, ...) {
-    // 실행할 코드
-    return 반환값; // (선택사항)
-}
-```
-
-### 예제: 간단한 함수
-```js
-function sayHello() {
-    console.log("Hello, JavaScript!");
-}
-sayHello(); // "Hello, JavaScript!" 출력
-```
+JavaScript를 포함한 대부분의 프로그래밍 언어에서 변수와 함수 이름은 일정한 표기법을 따릅니다. 특히, **카멜 표기법(Camel Case)**은 JavaScript에서 가장 일반적으로 사용되는 방식입니다. 이 글에서는 카멜 표기법과 함께 다른 주요 표기법들, 그리고 코딩 시 알아두면 좋은 명명 규칙을 정리해 보겠습니다.
 
 ---
 
-## 매개변수와 인수
+## 1. 카멜 표기법(Camel Case)
 
-### 매개변수와 인수란?
+**카멜 표기법**은 변수 이름의 첫 단어를 소문자로 시작하고, 두 번째 단어부터는 각 단어의 첫 글자를 대문자로 작성하는 방식입니다.
 
-- **매개변수(Parameter)**: 함수 정의 시 입력값을 받을 변수.
-- **인수(Argument)**: 함수 호출 시 실제로 전달하는 값.
+- 예: `myName`, `yourAddress`, `getUserData`
 
-#### 예제: 매개변수와 인수 사용
-```js
-function greet(name) {
-    console.log(`Hello, ${name}!`);
-}
-greet("Alice"); // "Hello, Alice!" 출력
-```
+### **왜 카멜 표기법을 사용할까?**
+1. **가독성**: 단어의 경계를 쉽게 구분할 수 있어 코드가 더 읽기 쉽습니다.
+2. **JavaScript의 관례**: JavaScript에서는 변수와 함수 이름에 카멜 표기법을 사용하는 것이 표준으로 자리 잡았습니다.
+3. **일관성 유지**: 팀 작업 시, 같은 규칙을 따름으로써 코드의 일관성을 유지합니다.
 
 ---
 
-## 여러 개의 매개변수
+## 2. 다른 변수명 표기법
 
-함수는 여러 개의 매개변수를 받을 수 있습니다.
+### **(1) 스네이크 표기법(Snake Case)**
+단어를 `_`로 구분하고 모든 단어를 소문자로 작성하는 방식입니다.
 
-#### 예제: 두 수의 합 구하기
-```js
-function add(a, b) {
-    return a + b;
-}
-let result = add(5, 3);
-console.log(result); // 8 출력
-```
+- 예: `my_name`, `your_address`
+
+**사용 사례**:
+- 데이터베이스 필드 이름
+- Python과 같은 언어에서 선호
 
 ---
 
-## 기본값 설정
+### **(2) 파스칼 표기법(Pascal Case)**
+모든 단어의 첫 글자를 대문자로 시작하는 방식입니다.
 
-매개변수에 기본값을 설정할 수도 있습니다.
+- 예: `MyName`, `YourAddress`, `GetUserData`
 
-#### 예제: 기본값 사용
-```js
-function greet(name = "Guest") {
-    console.log(`Hello, ${name}!`);
-}
-greet();          // "Hello, Guest!" 출력
-greet("Charlie"); // "Hello, Charlie!" 출력
-```
+**사용 사례**:
+- 클래스 이름 (`User`, `ProductManager`)
+- 생성자 함수 이름
 
 ---
 
-## 반환값
+### **(3) 상수 표기법(CONSTANT_CASE)**
+모든 글자를 대문자로 작성하고 단어를 `_`로 구분합니다.
 
-`return` 키워드를 사용하여 값을 반환할 수 있습니다.
+- 예: `MAX_RETRY`, `API_KEY`, `DEFAULT_TIMEOUT`
 
-#### 예제: 곱셈 함수
-```js
-function multiply(a, b) {
-    return a * b;
-}
-let product = multiply(4, 5);
-console.log(product); // 20 출력
-```
-
-`return`이 없는 함수는 자동으로 `undefined`를 반환합니다.
+**사용 사례**:
+- `const` 키워드로 선언한 상수 값
+- 읽기 전용 값이나 환경 변수를 나타낼 때 사용
 
 ---
 
-## 익명 함수와 화살표 함수
+## 3. JavaScript에서의 변수명 규칙 정리
 
-### 익명 함수 (Anonymous Function)
-
-익명 함수는 변수에 저장하거나 즉시 실행할 수 있습니다.
-
-#### 예제: 익명 함수
-```js
-let square = function (x) {
-    return x * x;
-};
-console.log(square(4)); // 16 출력
-```
-
-### 화살표 함수 (Arrow Function)
-
-더 간결한 문법으로 익명 함수를 작성할 수 있습니다.
-
-#### 예제: 화살표 함수
-```js
-let square = (x) => x * x;
-console.log(square(4)); // 16 출력
-```
+| **사용 대상**       | **표기법**       | **예시**                  |
+|---------------------|------------------|---------------------------|
+| 변수 및 함수 이름   | Camel Case       | `getUserName`, `isLoggedIn` |
+| 클래스 및 생성자 함수 | Pascal Case      | `User`, `ProductManager`  |
+| 상수               | CONSTANT_CASE    | `MAX_RETRY`, `API_URL`    |
+| 파일 이름          | Snake Case / Kebab Case | `user_data.js`, `user-data.js` |
 
 ---
 
-## 함수의 응용
+## 4. 언어별 관습 차이
+JavaScript뿐만 아니라 다른 프로그래밍 언어에서도 변수명 표기법은 언어의 관례와 목적에 따라 다릅니다.
 
-### 함수 내부에서 다른 함수 호출
-
-#### 예제: 제곱의 합 구하기
-```js
-function square(x) {
-    return x * x;
-}
-
-function sumOfSquares(a, b) {
-    return square(a) + square(b);
-}
-
-console.log(sumOfSquares(2, 3)); // 13 출력
-```
-
-### 콜백 함수 (Callback Function)
-
-콜백 함수는 다른 함수의 인수로 전달되는 함수입니다.
-
-#### 예제: 콜백 함수
-```js
-function processUserInput(callback) {
-    let name = "Alice";
-    callback(name);
-}
-
-processUserInput(function (name) {
-    console.log(`Hello, ${name}!`);
-});
-// "Hello, Alice!" 출력
-```
+- **Python**: 변수와 함수는 snake_case, 클래스는 PascalCase.
+- **Java**: CamelCase를 변수와 메서드에, PascalCase는 클래스에 사용.
+- **C/C++**: 상수는 UPPER_CASE, 나머지는 snake_case나 camelCase 혼용.
 
 ---
 
-## 함수의 유효 범위 (Scope)
+## 5. 마무리
 
-함수 안에서 선언된 변수는 함수 외부에서 접근할 수 없습니다.
+코드에서 변수명 규칙은 단순히 스타일 문제가 아니라 **코드 가독성과 유지보수성을 높이는 중요한 요소**입니다. JavaScript에서는 주로 **카멜 표기법**을 따르며, 상수는 **CONSTANT_CASE**로 작성하는 것이 관례입니다. 이러한 규칙을 따르면 협업 시 코드의 일관성을 유지할 수 있고, 다른 개발자가 코드를 이해하기 쉬워집니다.
 
-#### 예제: 유효 범위
-```js
-function example() {
-    let localVariable = "I'm local";
-    console.log(localVariable);
-}
-example(); // "I'm local" 출력
-console.log(localVariable); // 오류: localVariable은 정의되지 않음
-```
-
----
-
-## 예제 프로젝트: 간단한 계산기 함수
-
-마지막으로 간단한 계산기를 만들어 봅시다.
-
-#### 예제: 계산기 함수
-```js
-function calculator(a, b, operator) {
-    if (operator === "+") return a + b;
-    if (operator === "-") return a - b;
-    if (operator === "*") return a * b;
-    if (operator === "/") return b !== 0 ? a / b : "Cannot divide by zero";
-    return "Invalid operator";
-}
-
-console.log(calculator(10, 5, "+")); // 15
-console.log(calculator(10, 5, "-")); // 5
-console.log(calculator(10, 5, "*")); // 50
-console.log(calculator(10, 5, "/")); // 2
-console.log(calculator(10, 0, "/")); // "Cannot divide by zero"
-```
-
----
-
-JavaScript 함수는 매우 유연하고 강력한 도구입니다. 위의 예제를 통해 기초를 다지고, 다양한 프로젝트에서 활용해 보세요!
+당신의 코드에서도 이러한 규칙을 활용해 보세요!
