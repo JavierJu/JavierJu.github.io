@@ -1,93 +1,149 @@
 ---
-title: "JavaScript 변수명 규칙: 카멜 표기법부터 상수 표기법까지"
-excerpt: "JavaScript에서 변수명을 작성할 때 사용하는 카멜 표기법(Camel Case)과 다른 주요 표기법들에 대해 알아보고, 각 표기법의 사용 사례와 장점을 살펴봅니다."
+title: "JavaScript 고차 함수와 팩토리 함수의 이해"
+excerpt: "JavaScript 고차 함수와 팩토리 함수의 개념과 활용 방법에 대해 알아봅니다."
 categories:
   - JavaScript
 tags:
-  - [JavaScript, Coding Standards, Best Practices, Variables, Naming Conventions]
-permalink: /JavaScript/variable-naming-conventions/
+  - [JavaScript, Functions, Higher-Order Functions, Factory Functions, Closure]
+permalink: /JavaScript/higher-order-factory-functions/
 toc: true
 toc_sticky: true
-date: 2024-11-23
-last_modified_at: 2024-11-23
+date: 2024-11-24
+last_modified_at: 2024-11-24
 ---
 
-### JavaScript 변수명 규칙: 왜 카멜 표기법을 사용할까?
+## 고차 함수란?
 
-JavaScript를 포함한 대부분의 프로그래밍 언어에서 변수와 함수 이름은 일정한 표기법을 따릅니다. 특히, **카멜 표기법(Camel Case)**은 JavaScript에서 가장 일반적으로 사용되는 방식입니다. 이 글에서는 카멜 표기법과 함께 다른 주요 표기법들, 그리고 코딩 시 알아두면 좋은 명명 규칙을 정리해 보겠습니다.
+**고차 함수(Higher-Order Function)**는 다음 두 가지 조건 중 하나 이상을 만족하는 함수입니다:
+- 함수를 **인수로 받는 함수**
+- 함수를 **반환하는 함수**
 
----
-
-## 1. 카멜 표기법(Camel Case)
-
-**카멜 표기법**은 변수 이름의 첫 단어를 소문자로 시작하고, 두 번째 단어부터는 각 단어의 첫 글자를 대문자로 작성하는 방식입니다.
-
-- 예: `myName`, `yourAddress`, `getUserData`
-
-### **왜 카멜 표기법을 사용할까?**
-1. **가독성**: 단어의 경계를 쉽게 구분할 수 있어 코드가 더 읽기 쉽습니다.
-2. **JavaScript의 관례**: JavaScript에서는 변수와 함수 이름에 카멜 표기법을 사용하는 것이 표준으로 자리 잡았습니다.
-3. **일관성 유지**: 팀 작업 시, 같은 규칙을 따름으로써 코드의 일관성을 유지합니다.
+JavaScript의 고차 함수는 **코드 재사용성**과 **추상화**를 높이는 데 중요한 역할을 하며, 함수형 프로그래밍의 핵심 개념 중 하나입니다.
 
 ---
 
-## 2. 다른 변수명 표기법
+### 고차 함수의 특징
 
-### **(1) 스네이크 표기법(Snake Case)**
-단어를 `_`로 구분하고 모든 단어를 소문자로 작성하는 방식입니다.
-
-- 예: `my_name`, `your_address`
-
-**사용 사례**:
-- 데이터베이스 필드 이름
-- Python과 같은 언어에서 선호
+1. **함수를 인수로 받을 수 있다.**
+   - 특정 동작을 추상화하여 재사용할 수 있습니다.
+2. **함수를 반환할 수 있다.**
+   - 실행 결과로 동적으로 동작하는 새로운 함수를 반환합니다.
+3. **추상화**와 **재사용성**을 극대화합니다.
+   - 반복적인 작업을 간단히 처리할 수 있습니다.
 
 ---
 
-### **(2) 파스칼 표기법(Pascal Case)**
-모든 단어의 첫 글자를 대문자로 시작하는 방식입니다.
+### 고차 함수 예제
 
-- 예: `MyName`, `YourAddress`, `GetUserData`
+#### 1. 함수를 인수로 받는 경우
 
-**사용 사례**:
-- 클래스 이름 (`User`, `ProductManager`)
-- 생성자 함수 이름
+```js
+function greet(name) {
+    return `Hello, ${name}!`;
+}
 
----
+function processUserInput(callback) {
+    const name = "Alice"; // 사용자로부터 입력받았다고 가정
+    console.log(callback(name));
+}
 
-### **(3) 상수 표기법(CONSTANT_CASE)**
-모든 글자를 대문자로 작성하고 단어를 `_`로 구분합니다.
+processUserInput(greet);
+// 출력: Hello, Alice!
+```
 
-- 예: `MAX_RETRY`, `API_KEY`, `DEFAULT_TIMEOUT`
-
-**사용 사례**:
-- `const` 키워드로 선언한 상수 값
-- 읽기 전용 값이나 환경 변수를 나타낼 때 사용
-
----
-
-## 3. JavaScript에서의 변수명 규칙 정리
-
-| **사용 대상**       | **표기법**       | **예시**                  |
-|---------------------|------------------|---------------------------|
-| 변수 및 함수 이름   | Camel Case       | `getUserName`, `isLoggedIn` |
-| 클래스 및 생성자 함수 | Pascal Case      | `User`, `ProductManager`  |
-| 상수               | CONSTANT_CASE    | `MAX_RETRY`, `API_URL`    |
-| 파일 이름          | Snake Case / Kebab Case | `user_data.js`, `user-data.js` |
+`processUserInput`는 `greet` 함수를 인수로 받아 실행하는 고차 함수입니다. JavaScript의 배열 메서드인 `map`, `filter`, `reduce`도 고차 함수의 대표적인 예입니다.
 
 ---
 
-## 4. 언어별 관습 차이
-JavaScript뿐만 아니라 다른 프로그래밍 언어에서도 변수명 표기법은 언어의 관례와 목적에 따라 다릅니다.
+#### 2. 함수를 반환하는 경우
 
-- **Python**: 변수와 함수는 snake_case, 클래스는 PascalCase.
-- **Java**: CamelCase를 변수와 메서드에, PascalCase는 클래스에 사용.
-- **C/C++**: 상수는 UPPER_CASE, 나머지는 snake_case나 camelCase 혼용.
+```js
+function createMultiplier(multiplier) {
+    return function (value) {
+        return value * multiplier;
+    };
+}
+
+const double = createMultiplier(2); // multiplier가 2인 함수 생성
+const triple = createMultiplier(3); // multiplier가 3인 함수 생성
+
+console.log(double(5)); // 출력: 10
+console.log(triple(5)); // 출력: 15
+```
+
+`createMultiplier` 함수는 실행 결과로 새로운 함수를 반환하며, 이 함수는 클로저(Closure)로 동작합니다.
 
 ---
 
-## 5. 마무리
+## 팩토리 함수란?
 
-코드에서 변수명 규칙은 단순히 스타일 문제가 아니라 **코드 가독성과 유지보수성을 높이는 중요한 요소**입니다. JavaScript에서는 주로 **카멜 표기법**을 따르며, 상수는 **CONSTANT_CASE**로 작성하는 것이 관례입니다. 이러한 규칙을 따르면 협업 시 코드의 일관성을 유지할 수 있고, 다른 개발자가 코드를 이해하기 쉬워집니다.
+**팩토리 함수(Factory Function)**는 고차 함수의 한 종류로, **객체나 함수를 생성하여 반환하는 함수**입니다. 이를 통해 **유연하고 재사용 가능한 코드를 작성**할 수 있습니다.
 
-당신의 코드에서도 이러한 규칙을 활용해 보세요!
+---
+
+### 팩토리 함수의 예제
+
+#### 1. 객체 생성 팩토리 함수
+
+```js
+function createUser(name, role) {
+    return {
+        name,
+        role,
+        describe() {
+            return `${this.name}는 ${this.role}입니다.`;
+        },
+    };
+}
+
+const user1 = createUser("Alice", "관리자");
+const user2 = createUser("Bob", "사용자");
+
+console.log(user1.describe()); // 출력: Alice는 관리자입니다.
+console.log(user2.describe()); // 출력: Bob은 사용자입니다.
+```
+
+`createUser`는 객체를 반환하는 팩토리 함수로, 특정한 구조의 객체를 반복적으로 생성할 때 유용합니다.
+
+---
+
+#### 2. 상태를 기억하는 함수 생성
+
+```js
+function createCounter() {
+    let count = 0; // 내부 상태 (클로저)
+
+    return function () {
+        count++;
+        return count;
+    };
+}
+
+const counter1 = createCounter();
+const counter2 = createCounter();
+
+console.log(counter1()); // 출력: 1
+console.log(counter1()); // 출력: 2
+console.log(counter2()); // 출력: 1
+```
+
+`createCounter`는 상태를 기억하는 클로저로 작동하며, 반환된 함수는 독립적으로 상태를 관리합니다.
+
+---
+
+## 고차 함수와 팩토리 함수의 차이점
+
+- **고차 함수**는 일반적으로 함수형 프로그래밍에서 사용하는 패턴으로, 함수 간의 동작을 추상화합니다.
+- **팩토리 함수**는 특정 동작을 캡슐화하여 객체나 상태를 가진 함수를 반환하는 고차 함수의 한 유형입니다.
+
+---
+
+## 고차 함수와 팩토리 함수의 장점
+
+1. **코드 재사용성**: 반복되는 로직을 추상화하여 간결하고 유지보수하기 쉬운 코드를 작성할 수 있습니다.
+2. **유연성**: 동적으로 함수를 생성하거나 특정 동작을 캡슐화할 수 있습니다.
+3. **클로저와 결합**: 반환된 함수가 원래 함수의 상태를 기억할 수 있습니다.
+
+---
+
+고차 함수와 팩토리 함수는 JavaScript의 강력한 기능 중 하나로, 더 유연하고 유지보수 가능한 코드를 작성하는 데 큰 도움을 줍니다. 이를 이해하고 활용한다면 JavaScript 개발자로서 한 단계 더 성장할 수 있을 것입니다!

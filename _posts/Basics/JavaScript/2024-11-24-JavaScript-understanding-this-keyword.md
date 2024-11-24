@@ -1,93 +1,202 @@
 ---
-title: "JavaScript 변수명 규칙: 카멜 표기법부터 상수 표기법까지"
-excerpt: "JavaScript에서 변수명을 작성할 때 사용하는 카멜 표기법(Camel Case)과 다른 주요 표기법들에 대해 알아보고, 각 표기법의 사용 사례와 장점을 살펴봅니다."
+title: "JavaScript에서 'this' 키워드 완벽 이해하기: 다양한 상황과 예제"
+excerpt: "'this' 키워드는 JavaScript에서 함수 호출 방식에 따라 달라지는 컨텍스트를 참조합니다. 다양한 예제를 통해 'this'의 동작 원리를 완벽히 이해해 보세요."
 categories:
   - JavaScript
 tags:
-  - [JavaScript, Coding Standards, Best Practices, Variables, Naming Conventions]
-permalink: /JavaScript/variable-naming-conventions/
+  - [JavaScript, Functions, Objects, Arrow Functions, Context]
+permalink: /JavaScript/understanding-this-keyword/
 toc: true
 toc_sticky: true
-date: 2024-11-23
-last_modified_at: 2024-11-23
+date: 2024-11-24
+last_modified_at: 2024-11-24
 ---
 
-### JavaScript 변수명 규칙: 왜 카멜 표기법을 사용할까?
-
-JavaScript를 포함한 대부분의 프로그래밍 언어에서 변수와 함수 이름은 일정한 표기법을 따릅니다. 특히, **카멜 표기법(Camel Case)**은 JavaScript에서 가장 일반적으로 사용되는 방식입니다. 이 글에서는 카멜 표기법과 함께 다른 주요 표기법들, 그리고 코딩 시 알아두면 좋은 명명 규칙을 정리해 보겠습니다.
-
----
-
-## 1. 카멜 표기법(Camel Case)
-
-**카멜 표기법**은 변수 이름의 첫 단어를 소문자로 시작하고, 두 번째 단어부터는 각 단어의 첫 글자를 대문자로 작성하는 방식입니다.
-
-- 예: `myName`, `yourAddress`, `getUserData`
-
-### **왜 카멜 표기법을 사용할까?**
-1. **가독성**: 단어의 경계를 쉽게 구분할 수 있어 코드가 더 읽기 쉽습니다.
-2. **JavaScript의 관례**: JavaScript에서는 변수와 함수 이름에 카멜 표기법을 사용하는 것이 표준으로 자리 잡았습니다.
-3. **일관성 유지**: 팀 작업 시, 같은 규칙을 따름으로써 코드의 일관성을 유지합니다.
+JavaScript의 `this` 키워드는 함수 호출 방식에 따라 달라지는 컨텍스트를 참조하기 때문에 처음 접할 때 혼란스러울 수 있습니다. 코드 작성 시점이 아닌 실행 시점에 결정된다는 점에서 많은 개발자들이 어려움을 겪습니다. 아래에서 다양한 상황별로 `this`가 어떻게 동작하는지 자세히 살펴보겠습니다.
 
 ---
 
-## 2. 다른 변수명 표기법
+## 1. 일반 함수에서의 `this`
+일반 함수에서 `this`는 기본적으로 **전역 객체**를 가리킵니다.
+- 브라우저 환경: `window`
+- Node.js 환경: `global`
 
-### **(1) 스네이크 표기법(Snake Case)**
-단어를 `_`로 구분하고 모든 단어를 소문자로 작성하는 방식입니다.
+```js
+function showThis() {
+    console.log(this);
+}
 
-- 예: `my_name`, `your_address`
+// 브라우저 환경에서 호출
+showThis(); // window 객체 출력
 
-**사용 사례**:
-- 데이터베이스 필드 이름
-- Python과 같은 언어에서 선호
+// Node.js 환경에서 호출
+// showThis(); // global 객체 출력
+```
+### `use strict`를 사용한 경우
+`"use strict"`를 사용하면 함수 내부의 `this`는 `undefined`가 됩니다.
 
----
+```js
+"use strict";
 
-### **(2) 파스칼 표기법(Pascal Case)**
-모든 단어의 첫 글자를 대문자로 시작하는 방식입니다.
+function showThis() {
+    console.log(this);
+}
 
-- 예: `MyName`, `YourAddress`, `GetUserData`
-
-**사용 사례**:
-- 클래스 이름 (`User`, `ProductManager`)
-- 생성자 함수 이름
-
----
-
-### **(3) 상수 표기법(CONSTANT_CASE)**
-모든 글자를 대문자로 작성하고 단어를 `_`로 구분합니다.
-
-- 예: `MAX_RETRY`, `API_KEY`, `DEFAULT_TIMEOUT`
-
-**사용 사례**:
-- `const` 키워드로 선언한 상수 값
-- 읽기 전용 값이나 환경 변수를 나타낼 때 사용
+showThis(); // undefined
+```
 
 ---
 
-## 3. JavaScript에서의 변수명 규칙 정리
+## 2. 객체의 메서드에서의 `this`
+객체의 메서드에서 `this`는 **메서드를 호출한 객체**를 참조합니다.
 
-| **사용 대상**       | **표기법**       | **예시**                  |
-|---------------------|------------------|---------------------------|
-| 변수 및 함수 이름   | Camel Case       | `getUserName`, `isLoggedIn` |
-| 클래스 및 생성자 함수 | Pascal Case      | `User`, `ProductManager`  |
-| 상수               | CONSTANT_CASE    | `MAX_RETRY`, `API_URL`    |
-| 파일 이름          | Snake Case / Kebab Case | `user_data.js`, `user-data.js` |
+```js
+const obj = {
+    name: "JavaScript",
+    showName: function () {
+        console.log(this.name);
+    }
+};
+
+obj.showName(); // "JavaScript"
+```
+
+하지만 메서드를 변수에 할당하거나 다른 곳으로 전달하면 `this`는 **전역 객체**를 가리킬 수 있습니다.
+
+```js
+const obj = {
+    name: "JavaScript",
+    showName: function () {
+        console.log(this.name);
+    }
+};
+
+const newFunction = obj.showName;
+newFunction(); // undefined (엄격 모드에서는 전역 객체 대신 undefined)
+```
 
 ---
 
-## 4. 언어별 관습 차이
-JavaScript뿐만 아니라 다른 프로그래밍 언어에서도 변수명 표기법은 언어의 관례와 목적에 따라 다릅니다.
+## 3. 생성자 함수에서의 `this`
+생성자 함수에서 `this`는 **새로 생성된 객체**를 참조합니다.
 
-- **Python**: 변수와 함수는 snake_case, 클래스는 PascalCase.
-- **Java**: CamelCase를 변수와 메서드에, PascalCase는 클래스에 사용.
-- **C/C++**: 상수는 UPPER_CASE, 나머지는 snake_case나 camelCase 혼용.
+```js
+function Person(name) {
+    this.name = name;
+}
+
+const me = new Person("Javier");
+console.log(me.name); // "Javier"
+```
 
 ---
 
-## 5. 마무리
+## 4. Arrow 함수에서의 `this`
+화살표 함수의 `this`는 **자신을 감싸는 스코프**에서의 `this`를 상속받습니다.
 
-코드에서 변수명 규칙은 단순히 스타일 문제가 아니라 **코드 가독성과 유지보수성을 높이는 중요한 요소**입니다. JavaScript에서는 주로 **카멜 표기법**을 따르며, 상수는 **CONSTANT_CASE**로 작성하는 것이 관례입니다. 이러한 규칙을 따르면 협업 시 코드의 일관성을 유지할 수 있고, 다른 개발자가 코드를 이해하기 쉬워집니다.
+```js
+const obj = {
+    name: "JavaScript",
+    showName: function () {
+        const arrow = () => console.log(this.name);
+        arrow();
+    }
+};
 
-당신의 코드에서도 이러한 규칙을 활용해 보세요!
+obj.showName(); // "JavaScript"
+```
+
+---
+
+## 5. 이벤트 핸들러에서의 `this`
+DOM 이벤트 핸들러에서 `this`는 기본적으로 **이벤트가 바인딩된 DOM 요소**를 참조합니다.
+
+```js
+const button = document.querySelector("button");
+
+button.addEventListener("click", function () {
+    console.log(this); // 클릭된 버튼 요소
+});
+
+// 화살표 함수 사용 시
+button.addEventListener("click", () => {
+    console.log(this); // window
+});
+```
+
+---
+
+## 6. `bind`, `call`, `apply`로 `this` 제어하기
+`this`를 명시적으로 설정할 수 있는 메서드들입니다.
+
+- **`call`**: 함수 호출 시 `this`와 인수를 직접 전달.
+- **`apply`**: `this`와 인수를 **배열** 형태로 전달.
+- **`bind`**: `this`를 고정한 새 함수를 반환.
+
+```js
+function showThis(arg1, arg2) {
+    console.log(this.name, arg1, arg2);
+}
+
+const obj = { name: "JavaScript" };
+
+showThis.call(obj, "arg1", "arg2"); // "JavaScript arg1 arg2"
+showThis.apply(obj, ["arg1", "arg2"]); // "JavaScript arg1 arg2"
+
+const boundFunc = showThis.bind(obj, "arg1");
+boundFunc("arg2"); // "JavaScript arg1 arg2"
+```
+
+---
+
+## 7. 클래스와 `this`
+클래스 내부의 메서드에서 `this`는 생성된 인스턴스를 참조합니다.
+
+```js
+class Animal {
+    constructor(name) {
+        this.name = name;
+    }
+
+    speak() {
+        console.log(`${this.name} makes a noise.`);
+    }
+}
+
+const dog = new Animal("Dog");
+dog.speak(); // "Dog makes a noise."
+```
+
+---
+
+## 8. `this`와 컨텍스트 변경 예제
+아래 코드는 `this`의 다양한 동작을 보여줍니다.
+
+```js
+const obj = {
+    name: "JavaScript",
+    regularFunc: function () {
+        console.log("regularFunc:", this.name);
+    },
+    arrowFunc: () => {
+        console.log("arrowFunc:", this.name);
+    }
+};
+
+obj.regularFunc(); // "regularFunc: JavaScript"
+obj.arrowFunc(); // "arrowFunc: undefined"
+
+const externalFunc = obj.regularFunc;
+externalFunc(); // undefined
+```
+
+---
+
+## 핵심 요약
+1. 일반 함수: 전역 객체 (strict 모드에서는 undefined).
+2. 메서드: 메서드를 호출한 객체.
+3. 생성자: 새로 생성된 객체.
+4. 화살표 함수: 자신을 감싸는 스코프의 `this`.
+5. 명시적 호출: `call`, `apply`, `bind`로 설정 가능.
+
+`this`를 다룰 때는 **호출 방법**과 **화살표 함수 사용 여부**를 항상 고려해야 합니다. 이 글이 `this`의 동작 방식을 이해하는 데 도움이 되었길 바랍니다!
