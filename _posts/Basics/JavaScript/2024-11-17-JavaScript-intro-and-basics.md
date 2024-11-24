@@ -62,8 +62,7 @@ JavaScript의 기본 데이터 타입:
   - `string`, `number`, `boolean`, `undefined`, `null`, `symbol`, `bigint`.
 - **객체 타입**:
   - `object`, `array`, `function` 등.
-```
-js
+```js
 let text = "Hello";       // string
 let number = 42;          // number
 let isComplete = true;    // boolean
