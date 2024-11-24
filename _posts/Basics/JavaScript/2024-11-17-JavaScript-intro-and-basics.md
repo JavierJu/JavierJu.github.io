@@ -48,12 +48,11 @@ JavaScript에서 변수를 선언하는 방법:
 - `let`: 블록 범위 변수 선언.
 - `const`: 상수 선언(값 변경 불가능).
 
-"""
-js
+```js
 let name = "Javier"; // 블록 범위 변수
 const age = 25;      // 상수
 var country = "Japan"; // 함수 범위 변수
-"""
+```
 
 ---
 
@@ -63,33 +62,30 @@ JavaScript의 기본 데이터 타입:
   - `string`, `number`, `boolean`, `undefined`, `null`, `symbol`, `bigint`.
 - **객체 타입**:
   - `object`, `array`, `function` 등.
-
-"""
+```
 js
 let text = "Hello";       // string
 let number = 42;          // number
 let isComplete = true;    // boolean
 let notDefined;           // undefined
 let emptyValue = null;    // null
-"""
+```
 
 ---
 
 ### 3. 조건문
-"""
-js
+```js
 if (age > 18) {
   console.log("Adult");
 } else {
   console.log("Minor");
 }
-"""
+```
 
 ---
 
 ### 4. 반복문
-"""
-js
+```js
 for (let i = 0; i < 5; i++) {
   console.log("Count: " + i);
 }
@@ -98,54 +94,49 @@ let fruits = ["Apple", "Banana", "Cherry"];
 for (let fruit of fruits) {
   console.log(fruit);
 }
-"""
+```
 
 ---
 
 ### 5. 함수
 - **선언형 함수**:
-"""
-js
+```js
 function greet(name) {
   return `Hello, ${name}`;
 }
 console.log(greet("Javier")); // Hello, Javier
-"""
+```
 
 - **화살표 함수**:
-"""
-js
+```js
 const greet = (name) => `Hello, ${name}`;
 console.log(greet("Javier")); // Hello, Javier
-"""
+```
 
 ---
 
 ### 6. 이벤트 처리
-"""
-js
+```js
 document.getElementById("myButton").addEventListener("click", () => {
   alert("Button clicked!");
 });
-"""
+```
 
 ---
 
 ### 7. DOM 조작
-"""
-js
+```js
 document.getElementById("myText").textContent = "Updated Text!";
-"""
+```
 
 ---
 
 ### 8. JSON과 데이터 처리
-"""
-js
+```js
 let jsonData = '{"name": "Javier", "age": 25}';
 let user = JSON.parse(jsonData); // JSON 문자열 -> 객체 변환
 console.log(user.name); // Javier
-"""
+```
 
 ---
 
