@@ -138,16 +138,6 @@ console.log(Boolean(NaN));      // false
 | `"123"`    | `123`|
 | `"abc"`    | `NaN`|
 
-| 값         | 결과 |
-|------------|------|
-| `true`     | `1`  |
-| `false`    | `0`  |
-| `null`     | `0`  |
-| `undefined`| `NaN`|
-| `""`       | `0`  |
-| `"123"`    | `123`|
-| `"abc"`    | `NaN`|
-
 예제:
 ```js
 console.log(Number(true));     // 1
