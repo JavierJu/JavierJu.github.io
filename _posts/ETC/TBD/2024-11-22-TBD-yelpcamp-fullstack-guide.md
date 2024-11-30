@@ -2,10 +2,10 @@
 title: "YelpCamp: Node.js와 Express로 배우는 풀스택 웹 개발"
 excerpt: "YelpCamp 프로젝트를 통해 Node.js와 Express.js를 활용한 풀스택 웹 개발을 학습하는 방법과 주요 기능에 대해 알아봅니다."
 categories:
-  - Web
+  - TBD
 tags:
   - [Node.js, Express.js, MongoDB, Full Stack, JavaScript]
-permalink: /Web/yelpcamp-fullstack-guide/
+permalink: /TBD/yelpcamp-fullstack-guide/
 toc: true
 toc_sticky: true
 date: 2024-11-22
