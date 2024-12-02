@@ -13,8 +13,8 @@ tags:
 permalink: /JavaScript/role-alert-accessibility/
 toc: true
 toc_sticky: true
-date: 2024-12-1
-last_modified_at: 2024-12-1
+date: 2024-12-2
+last_modified_at: 2024-12-2
 ---
 
 일부 코드블록의 백틱 문자열이 """로 변경이 안됐어. 다시 작성해줘.
