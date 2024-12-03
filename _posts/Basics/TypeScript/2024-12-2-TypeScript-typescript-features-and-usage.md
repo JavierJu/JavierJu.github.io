@@ -20,24 +20,21 @@ TypeScript는 JavaScript의 상위 집합으로, **정적 타입(type)**을 추�
 
 ### 1. **정적 타입 (Static Typing)**
    TypeScript는 변수, 함수 매개변수, 반환값 등에 타입을 지정할 수 있습니다. 타입은 컴파일 타임에 검사되므로, 런타임 오류를 미리 방지할 수 있습니다.
-   """
-   js
+   ```   js
    let age: number = 25; // 숫자 타입만 허용
    age = "25"; // 컴파일 오류 발생
-   """
+   ```
 
 ### 2. **타입 추론 (Type Inference)**
    명시적으로 타입을 지정하지 않아도, TypeScript가 변수의 초기 값 등을 기반으로 자동으로 타입을 추론합니다.
-   """
-   js
+   ```   js
    let name = "Alice"; // name은 string으로 추론
    name = 123; // 컴파일 오류
-   """
+   ```
 
 ### 3. **타입 정의 확장 (Interfaces & Types)**
    복잡한 데이터 구조를 정의할 수 있습니다. `interface`와 `type` 키워드를 사용해 객체, 함수, 배열 등의 타입을 명확히 표현합니다.
-   """
-   js
+   ```   js
    interface User {
      id: number;
      name: string;
@@ -45,7 +42,7 @@ TypeScript는 JavaScript의 상위 집합으로, **정적 타입(type)**을 추�
    }
 
    const user: User = { id: 1, name: "Alice" }; // email은 없어도 OK
-   """
+   ```
 
 ### 4. **강력한 개발 도구 지원**
    코드 완성(IntelliSense), 리팩토링, 코드 검사 등의 기능이 크게 향상됩니다. IDE나 에디터(VS Code 등)에서 생산성을 높여줍니다.
@@ -55,16 +52,14 @@ TypeScript는 JavaScript의 상위 집합으로, **정적 타입(type)**을 추�
 
 ### 6. **유틸리티 타입 제공**
    TypeScript는 `Partial`, `Readonly`, `Pick`, `Omit` 등과 같은 내장 유틸리티 타입을 제공하여 타입 조작을 간단하게 만듭니다.
-   """
-   js
+   ```   js
    type User = { id: number; name: string; email: string; };
    type PartialUser = Partial<User>; // 모든 필드가 선택적(Optional)으로 변환
-   """
+   ```
 
 ### 7. **클래스와 객체지향 프로그래밍 지원**
    TypeScript는 `class`, `inheritance(상속)`, `public/private/protected` 등의 접근 제한자를 지원합니다.
-   """
-   js
+   ```   js
    class Animal {
      protected name: string;
      constructor(name: string) {
@@ -83,16 +78,15 @@ TypeScript는 JavaScript의 상위 집합으로, **정적 타입(type)**을 추�
        console.log(`${this.name} barks.`);
      }
    }
-   """
+   ```
 
 ### 8. **타입 시스템 확장**
    TypeScript는 `Union`, `Intersection`, `Literal`, `Tuple` 등 다양한 타입 시스템을 지원합니다.
-   """
-   js
+   ```   js
    type ID = string | number; // Union 타입
    let userId: ID = "abc123"; // 문자열
    userId = 456; // 숫자
-   """
+   ```
 
 ---
 
