@@ -3,11 +3,11 @@ title: "[VS Code] VS Code에서 유용한 HTML 코드 단축키 정리"
 excerpt: "VS Code에서 HTML 코드 작성 시 효율성을 높여주는 유용한 단축키들을 정리했습니다. 빠른 코딩을 위한 다양한 단축키를 확인해 보세요."
 
 categories:
-  - VS Code
+  - Tools
 tags:
   - ["VS Code", "단축키", "HTML", "코딩 생산성"]
 
-permalink: /VS Code/html-shortcuts/
+permalink: /Tools/html-shortcuts/
 
 toc: true
 toc_sticky: true

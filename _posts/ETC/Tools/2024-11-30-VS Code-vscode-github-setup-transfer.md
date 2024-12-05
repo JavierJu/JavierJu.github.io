@@ -2,10 +2,10 @@
 title: "새로운 랩탑으로 VS Code 및 GitHub 환경 이전하기"
 excerpt: "새로운 랩탑으로 VS Code와 GitHub 환경을 이전하는 방법과 필요한 설정을 안내합니다."
 categories:
-  - TBD
+  - Tools
 tags:
   - [VS Code, GitHub, 설정, SSH, 개발 환경]
-permalink: /TBD/vscode-github-setup-transfer/
+permalink: /Tools/vscode-github-setup-transfer/
 toc: true
 toc_sticky: true
 date: 2024-11-30

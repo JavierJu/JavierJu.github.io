@@ -2,10 +2,10 @@
 title: "VS Code에서 JavaScript 코드를 실행하고 테스트하는 방법"
 excerpt: "VS Code에서 JavaScript 코드를 실행하여 결과를 확인하는 다양한 방법에 대해 알아봅니다."
 categories:
-  - VS Code
+  - Tools
 tags:
   - [JavaScript, VS Code, Node.js, Development Tools]
-permalink: /VS Code/vscode-javascript-testing/
+permalink: /Tools/vscode-javascript-testing/
 toc: true
 toc_sticky: true
 date: 2024-11-18

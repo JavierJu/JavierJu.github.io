@@ -3,11 +3,11 @@ title: "[AWS 웹서버 구축] Amazon Linux와 Ubuntu 선택 가이드"
 excerpt: "Amazon Linux와 Ubuntu, 어느 것을 선택하는 것이 좋을까요? AWS 환경에 최적화된 Amazon Linux와 다양한 플랫폼에서 사용 가능한 Ubuntu를 비교해보세요."
 
 categories:
-  - AWS
+  - Tools
 tags:
   - [AWS, Amazon Linux, Ubuntu, 서버 운영체제]
 
-permalink: /AWS/amazon-linux-vs-ubuntu/
+permalink: /Tools/amazon-linux-vs-ubuntu/
 
 toc: true
 toc_sticky: true

@@ -3,11 +3,11 @@ title: "[GIT Blog] 웹사이트 아이콘, Favicon(파비콘)에 대해 알아�
 excerpt: "Favicon(파비콘)이란 무엇이고, 어떻게 웹사이트에 적용할 수 있을까요? 주요 특징과 사용 방법을 알아보세요."
 
 categories:
-  - GIT
+  - Tools
 tags:
   - [Favicon, Web, Icon, 웹 아이콘, 파비콘, Git Blog]
 
-permalink: /GIT/favicon/
+permalink: /Tools/favicon/
 
 toc: true
 toc_sticky: true

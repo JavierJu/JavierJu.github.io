@@ -3,11 +3,11 @@ title: "[VS Code] VS Code에서 여러 위치에 동시에 커서 추가하는 �
 excerpt: "VS Code에서 여러 위치에 동시에 커서를 추가해 효율적으로 코드를 작성하는 방법을 배워보세요."
 
 categories:
-  - VS Code
+  - Tools
 tags:
   - ["VS Code", "단축키", "개발 환경", "멀티 커서"]
 
-permalink: /VS Code/multiple-cursors
+permalink: /Tools/multiple-cursors
 
 toc: true
 toc_sticky: true

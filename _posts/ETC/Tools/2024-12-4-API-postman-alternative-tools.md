@@ -2,10 +2,10 @@
 title: "Postman과 비슷한 API 테스트 도구 비교: Insomnia, Paw, cURL, HTTPie"
 excerpt: "API 개발과 테스트에 필요한 Postman의 주요 기능과 비슷한 도구들(Insomnia, Paw, cURL, HTTPie)의 차이점을 비교합니다."
 categories:
-  - Web
+  - Tools
 tags:
   - [API, Postman, Insomnia, cURL, HTTPie, REST]
-permalink: /Web/postman-alternative-tools/
+permalink: /Tools/postman-alternative-tools/
 toc: true
 toc_sticky: true
 date: 2024-12-4

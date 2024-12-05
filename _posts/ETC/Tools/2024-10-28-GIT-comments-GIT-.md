@@ -3,11 +3,11 @@ title: "[GIT Blog] 블로그에 댓글 기능 추가하기"
 excerpt: "Disqus, Utterances, Facebook Comments Plugin을 사용하여 간단히 블로그에 댓글 기능을 추가하는 방법을 알아보세요. 외부 댓글 서비스와 직접 구현하는 방법을 소개합니다."
 
 categories:
-  - GIT
+  - Tools
 tags:
   - [Comments, Git Blog, Disqus, Utterances, Facebook Comments, 블로그 댓글]
 
-permalink: /GIT/comments/
+permalink: /Tools/comments/
 
 toc: true
 toc_sticky: true

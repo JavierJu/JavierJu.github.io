@@ -2,10 +2,10 @@
 title: "PWA에서 '앱 설치'와 '홈 화면 추가' 차이점과 manifest.json 설정 방법"
 excerpt: "홈 화면에 웹 앱을 설치할 때 '앱 설치'로 변경되는 이유와 manifest.json 설정을 통해 앱 이름을 바꾸는 방법에 대해 설명합니다."
 categories:
-  - GIT
+  - Tools
 tags:
   - [Github Blog, Web Development, PWA, Manifest, Web App]
-permalink: /GIT/pwa-app-install-home-screen/
+permalink: /Tools/pwa-app-install-home-screen/
 toc: true
 toc_sticky: true
 date: 2024-11-25

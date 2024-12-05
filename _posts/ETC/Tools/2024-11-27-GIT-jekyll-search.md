@@ -2,10 +2,10 @@
 title: "Jekyll 기반 GitHub 블로그에 검색 기능 추가하기"
 excerpt: "Jekyll로 만든 GitHub Pages 블로그에 검색 기능을 추가하는 다양한 방법과 각각의 장단점을 알아봅니다."
 categories:
-  - GIT
+  - Tools
 tags:
   - [Jekyll, 검색, 블로그, GitHub]
-permalink: /GIT/jekyll-search/
+permalink: /Tools/jekyll-search/
 toc: true
 toc_sticky: true
 date: 2024-11-27
