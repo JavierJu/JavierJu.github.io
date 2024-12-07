@@ -8,8 +8,8 @@ tags:
 permalink: /Node/nodejs-terminal-commands/
 toc: true
 toc_sticky: true
-date: 2024-12-07
-last_modified_at: 2024-12-07
+date: 2024-12-7
+last_modified_at: 2024-12-7
 ---
 
 Node.js로 웹 서버를 개발하거나 관리할 때 Git Bash 터미널에서 자주 사용하는 명령어를 정리했습니다. 이 명령어들은 Node.js 관련 작업, npm 관리, Git Bash 기본 작업으로 나누어 설명합니다. 

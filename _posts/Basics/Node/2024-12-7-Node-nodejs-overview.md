@@ -8,8 +8,8 @@ tags:
 permalink: /Node/nodejs-overview/
 toc: true
 toc_sticky: true
-date: 2024-12-07
-last_modified_at: 2024-12-07
+date: 2024-12-7
+last_modified_at: 2024-12-7
 ---
 
 ### Node.js란 무엇인가?

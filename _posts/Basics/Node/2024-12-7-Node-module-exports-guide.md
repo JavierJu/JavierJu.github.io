@@ -8,8 +8,8 @@ tags:
 permalink: /Node/module-exports-guide/
 toc: true
 toc_sticky: true
-date: 2024-12-07
-last_modified_at: 2024-12-07
+date: 2024-12-7
+last_modified_at: 2024-12-7
 ---
 
 Node.js에서 `module.exports`는 모듈을 정의하고 내보내는 데 사용되는 핵심 객체입니다. 이를 통해 각 파일을 독립적인 모듈로 다루며, `require`를 통해 다른 파일에서 모듈의 기능을 가져올 수 있습니다. 이 문서에서는 `module.exports`의 원리와 사용 방법을 예제와 함께 살펴봅니다.

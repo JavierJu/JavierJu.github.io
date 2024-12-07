@@ -8,8 +8,8 @@ tags:
 permalink: /Node/npm-guide/
 toc: true
 toc_sticky: true
-date: 2024-12-07
-last_modified_at: 2024-12-07
+date: 2024-12-7
+last_modified_at: 2024-12-7
 ---
 
 Node.js의 **NPM(Node Package Manager)**은 Node.js 애플리케이션에서 사용할 수 있는 패키지(라이브러리나 모듈)를 관리하는 도구입니다. NPM은 Node.js를 설치하면 기본적으로 함께 설치됩니다. NPM은 개발자들이 코드를 재사용하고 공유하기 위해 만들어졌으며, 전 세계적으로 가장 큰 오픈 소스 라이브러리 저장소입니다.

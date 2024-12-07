@@ -8,8 +8,8 @@ tags:
 permalink: /Node/nodejs-version-management/
 toc: true
 toc_sticky: true
-date: 2024-12-07
-last_modified_at: 2024-12-07
+date: 2024-12-7
+last_modified_at: 2024-12-7
 ---
 
 ## Node.js 버전 확인 및 업데이트
