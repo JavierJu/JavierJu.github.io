@@ -7,7 +7,7 @@ categories:
 tags:
   - [Smart Farm, Arduino, Web Development, IoT]
 
-permalink: /Smart Farm/web-app-arduino/
+permalink: /Smart-Farm/web-app-arduino/
 
 toc: true
 toc_sticky: true

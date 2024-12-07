@@ -41,17 +41,17 @@ categories:
       # - title: "GIT"
       #   url: /categories/GIT/
       # - title: "VS Code"
-      #   url: /categories/VS Code/
+      #   url: /categories/VS-Code/
       - title: "Tools"
         url: /categories/Tools/
   
   - title: "Projects"
     children:
       - title: "Smart Farm"
-        url: /categories/Smart Farm/
+        url: /categories/Smart-Farm/
       - title: "Clone Application"
-        url: /categories/Clone Application/
+        url: /categories/Clone-Application/
       - title: "Simple Program Challenges"
-        url: /categories/Simple Program Challenges/
+        url: /categories/Simple-Program-Challenges/
       - title: "TBD"
         url: /categories/TBD/

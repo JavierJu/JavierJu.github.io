@@ -7,7 +7,7 @@ categories:
 tags:
   - [Smart Farm, JavaScript, fetch API]
 
-permalink: /Smart Farm/fetch API/
+permalink: /Smart-Farm/fetch-API/
 
 toc: true
 toc_sticky: true
