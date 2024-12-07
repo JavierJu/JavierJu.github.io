@@ -8,8 +8,8 @@ tags:
 permalink: /Node/nodejs-repl-guide/
 toc: true
 toc_sticky: true
-date: 2024-12-06
-last_modified_at: 2024-12-06
+date: 2024-12-07
+last_modified_at: 2024-12-07
 ---
 
 ## Node.js REPL이란?
