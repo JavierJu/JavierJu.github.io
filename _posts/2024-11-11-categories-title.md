@@ -16,8 +16,8 @@ tags:
 permalink: /Node/nodejs-overview/
 toc: true
 toc_sticky: true
-date: 2024-12-
-last_modified_at: 2024-12-
+date: 2024-12-8
+last_modified_at: 2024-12-8
 ---
 
 본문은 여기부터 위 제목 부분에 이어서 작성
