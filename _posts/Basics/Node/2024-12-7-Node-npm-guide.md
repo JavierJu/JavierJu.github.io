@@ -87,6 +87,20 @@ Node.js의 **NPM(Node Package Manager)**은 Node.js 애플리케이션에서 사
 | `npm audit`                | 설치된 패키지의 보안 취약점 스캔                                              |
 | `npm cache clean --force`  | 캐시를 정리 (문제 해결 시 유용)                                                |
 
+| 명령어                     | 설명                                                                            |
+|----------------------------|---------------------------------------------------------------------------------|
+| `npm init`                 | 새로운 `package.json` 파일 생성                                                |
+| `npm install` 또는 `npm i` | `package.json`에 정의된 모든 의존성 패키지 설치                                 |
+| `npm install [패키지]`     | 특정 패키지 설치 (로컬 설치가 기본)                                             |
+| `npm install [패키지] -g`  | 특정 패키지를 전역 설치                                                        |
+| `npm uninstall [패키지]`   | 설치된 패키지 제거                                                             |
+| `npm update`               | 패키지 업데이트                                                               |
+| `npm outdated`             | 사용 중인 패키지의 업데이트 가능한 버전 확인                                   |
+| `npm run [스크립트 이름]`  | `package.json`에 정의된 스크립트 실행                                          |
+| `npm publish`              | 패키지를 NPM 레지스트리에 배포                                                |
+| `npm audit`                | 설치된 패키지의 보안 취약점 스캔                                              |
+| `npm cache clean --force`  | 캐시를 정리 (문제 해결 시 유용)   
+
 ## **NPM vs Yarn**
 NPM은 Yarn과 같은 다른 패키지 매니저와 비교되곤 합니다. Yarn은 페이스북에서 만든 NPM 대안으로, 속도와 안정성을 강조한 도구입니다. 최근 NPM은 버전 7 이상으로 업데이트되며 Yarn과의 주요 기능 차이를 많이 좁혔습니다.
 
