@@ -12,8 +12,6 @@ date: 2024-12-6
 last_modified_at: 2024-12-6
 ---
 
-# JavaScript 객체지향프로그래밍(OOP) 완벽 가이드
-
 객체지향 프로그래밍(Object-Oriented Programming, OOP)은 **객체(Object)**라는 개념을 중심으로 설계되고 구현되는 프로그래밍 패러다임입니다. 이 글에서는 JavaScript에서 객체지향프로그래밍의 핵심 개념과 이를 이해하기 위한 내용을 상세히 알아보겠습니다.
 
 ---

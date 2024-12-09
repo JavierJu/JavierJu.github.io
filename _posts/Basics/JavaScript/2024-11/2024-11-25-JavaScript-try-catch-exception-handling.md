@@ -12,8 +12,6 @@ date: 2024-11-25
 last_modified_at: 2024-11-25
 ---
 
-# JavaScript에서 try/catch 문을 사용하는 이유와 사용법
-
 JavaScript에서 `try/catch` 문은 코드 실행 중 발생할 수 있는 오류를 처리하는 데 사용됩니다. 이 구문은 **예외(Exception)**를 처리하는 방식으로 프로그램이 중단되지 않도록 하며, 오류 발생 시 적절한 대응을 할 수 있게 해줍니다.
 
 ## `try/catch` 문법

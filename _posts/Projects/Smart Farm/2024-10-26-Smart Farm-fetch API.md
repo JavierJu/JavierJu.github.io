@@ -15,9 +15,9 @@ toc_sticky: true
 date: 2024-10-26
 last_modified_at: 2024-10-26
 ---
- 아두이노에 연결된 릴레이를 동작시키기 위해 웹어플리케이션에서 ON/OFF 명령어를 DB 기록하고 현재 상태를 표시하기 위한 로직 생성 중 Fetch API 관련된 내용에 대해 ChatGPT와의 문답을 정리하였다.
+ 아두이노에 연결된 릴레이를 동작시키기 위해 웹어플리케이션에서 ON/OFF 명령어를 DB 기록하고 현재 상태를 표시하기 위한 로직 생성 중 Fetch API 관련된 내용에 대해 ChatGPT와의 문답을 정리하였습니다.
  
- 예시 코드는 아두이노의 릴레이 작동을 위해 실제 테스트 중인 코드이며 코드 내용 중 등장하는 `pump_control.php`와 `get_latest_command.php`코드는 글 제일 마지막에 참고용으로 추가하였다.
+ 예시 코드는 아두이노의 릴레이 작동을 위해 실제 테스트 중인 코드이며 코드 내용 중 등장하는 `pump_control.php`와 `get_latest_command.php`코드는 글 제일 마지막에 참고용으로 추가하였습니다.
 
 # Fetch API를 사용한 비동기 요청 방식
 

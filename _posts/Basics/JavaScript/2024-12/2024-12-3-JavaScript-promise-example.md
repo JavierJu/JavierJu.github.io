@@ -12,8 +12,6 @@ date: 2024-12-3
 last_modified_at: 2024-12-3
 ---
 
-# JavaScript에서 Promise의 역할과 활용
-
 JavaScript에서 비동기 작업을 처리하는 방법 중 하나인 `Promise`는, 특히 **callback hell** 문제를 해결하는 데 유용하게 사용됩니다. `Promise`를 사용하면 비동기 작업을 더 깔끔하고 가독성 있게 처리할 수 있습니다. 이번 글에서는 `Promise`의 개념, 사용법, 그리고 이를 사용하는 이유와 예제에 대해 자세히 알아보겠습니다.
 
 ## 1. Callback Hell 문제

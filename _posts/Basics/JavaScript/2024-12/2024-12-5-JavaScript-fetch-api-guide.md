@@ -12,8 +12,6 @@ date: 2024-12-5
 last_modified_at: 2024-12-5  
 ---  
 
-# JavaScript Fetch API 완벽 가이드
-
 `Fetch API`는 JavaScript에서 HTTP 요청을 보내고 응답을 처리하는 현대적인 방법을 제공합니다. 간단한 문법과 유연성 덕분에 비동기 작업을 쉽게 수행할 수 있습니다. 이 가이드는 Fetch API의 기본 사용법부터 고급 기능까지 단계별로 설명합니다.
 
 ---

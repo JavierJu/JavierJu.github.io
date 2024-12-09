@@ -15,11 +15,6 @@ toc_sticky: true
 date: 2024-10-26
 last_modified_at: 2024-10-26
 ---
-Git Blog 셋업 시 Favicon 설정이 필요해서 Favicon이 무엇인지 ChatGPT에 문답한 내용을 정리하였다.
-
-[https://www.favicon-generator.org/](https://www.favicon-generator.org/) 접속하여 원하는 이미지를 favicon으로 생성하여 사용한다.
-
-# Favicon(파비콘)이란?
 
 **Favicon(파비콘)** 은 웹사이트를 대표하는 아이콘으로, 브라우저의 탭, 북마크, 주소창 옆, 또는 모바일 홈 화면 등 다양한 위치에 표시됩니다. 작은 이미지지만, 파비콘은 사용자에게 **웹사이트의 브랜드를 각인**시키는 중요한 역할을 합니다.
 

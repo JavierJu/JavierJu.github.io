@@ -12,7 +12,6 @@ date: 2024-11-27
 last_modified_at: 2024-11-27
 ---
 
-
 Jekyll로 만든 GitHub Pages 블로그는 정적 사이트라는 특성상 기본적으로 검색 기능을 제공하지 않습니다. 하지만 몇 가지 방법을 통해 블로그에 검색 기능을 추가할 수 있습니다. 이번 글에서는 **Lunr.js**, **Simple Jekyll Search**, **Google Custom Search Engine(CSE)**, **Algolia**를 사용한 방법과 각각의 장단점을 비교해보겠습니다.
 
 ---
