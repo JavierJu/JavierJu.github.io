@@ -22,8 +22,7 @@ Node.js를 사용하여 언어 예측 프로그램을 만들어보면서 NPM 패
 Node.js가 설치되어 있지 않다면 [Node.js 공식 웹사이트](https://nodejs.org)에서 다운로드하여 설치합니다.  
 설치 후, 터미널에서 다음 명령어로 Node.js와 npm의 버전을 확인합니다.
 
-```
-bash
+```bash
 node -v
 npm -v
 ```
@@ -31,8 +30,7 @@ npm -v
 ### 1.2 프로젝트 디렉토리 생성 및 초기화
 다음 명령어를 통해 프로젝트 디렉토리를 생성하고 초기화합니다.
 
-```
-bash
+```bash
 mkdir language-detector
 cd language-detector
 npm init -y
@@ -51,8 +49,7 @@ npm init -y
 
 ### 패키지 설치 명령어
 
-```
-bash
+```bash
 npm install franc langs colors
 ```
 
@@ -62,8 +59,7 @@ npm install franc langs colors
 
 아래 코드는 언어 예측 프로그램의 예제입니다. 이 코드는 명령줄에서 입력받은 텍스트를 분석하여 해당 언어를 예측하고 결과를 출력합니다.
 
-```
-js
+```js
 const franc = require("franc");
 const langs = require("langs");
 const colors = require("colors");
@@ -90,8 +86,7 @@ if (langCode === 'und' || langCode === 'sco') {
 
 1. 작성한 코드를 `index.js`라는 이름으로 저장합니다.
 2. 명령어를 실행합니다:
-   ```
-   bash
+   ```bash
    node index.js "Sample text here"
    ```
 3. 출력 결과:
@@ -103,24 +98,20 @@ if (langCode === 'und' || langCode === 'sco') {
 ## 5. 실행 예제
 
 ### 예제 1: 텍스트 감지 성공
-```
-bash
+```bash
 node index.js "Bonjour tout le monde"
 ```
 출력:
-```
-plaintext
+```plaintext
 Our best guess is : French
 ```
 
 ### 예제 2: 텍스트 감지 실패
-```
-bash
+```bash
 node index.js "abc"
 ```
 출력:
-```
-plaintext
+```plaintext
 Please input more letters as 10 or more!
 ```
 
@@ -134,8 +125,7 @@ Please input more letters as 10 or more!
 4. **언어 필터링**: 특정 언어만 감지하도록 `whitelist` 옵션 활용.
 
 ### 언어 필터링 예제
-```
-js
+```js
 const franc = require("franc");
 const whitelist = ["eng", "spa", "fra"]; // 영어, 스페인어, 프랑스어만 감지
 const langCode = franc("Bonjour", { whitelist });

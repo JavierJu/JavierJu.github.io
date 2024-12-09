@@ -18,8 +18,7 @@ Node.js와 NPM 패키지를 활용하여 간단한 프로젝트를 완성해 봅
 
 ### 1.1. 디렉토리 생성 및 초기화
 먼저, 새 디렉토리를 만들고 Node.js 프로젝트를 초기화합니다:
-```
-bash
+```bash
 mkdir joke-cowsay-demo
 cd joke-cowsay-demo
 npm init -y
@@ -33,8 +32,7 @@ npm init -y
 
 ### 2.1. 필요한 패키지 설치
 다음 명령으로 프로젝트에 필요한 NPM 패키지를 설치합니다:
-```
-bash
+```bash
 npm install give-me-a-joke cowsay colors
 ```
 
@@ -46,8 +44,7 @@ npm install give-me-a-joke cowsay colors
 
 ### 3.1. `index.js` 파일 생성
 디렉토리에 `index.js` 파일을 생성하고 다음과 같이 작성합니다:
-```
-js
+```js
 // 패키지 로드
 const jokes = require("give-me-a-joke");
 const colors = require("colors");
@@ -76,15 +73,13 @@ console.log(cowsay.say({
 
 ### 4.1. 실행
 작성한 코드를 다음 명령으로 실행합니다:
-```
-bash
+```bash
 node index.js
 ```
 
 ### 4.2. 실행 결과
 실행하면 아래와 같은 결과를 확인할 수 있습니다 (농담은 매번 랜덤으로 바뀝니다):
-```
-plaintext
+```plaintext
  _______________________
 < Why don't skeletons fight each other? They don't have the guts. >
  -----------------------

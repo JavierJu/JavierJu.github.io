@@ -17,51 +17,45 @@ Node.js의 **NPM(Node Package Manager)**은 Node.js 애플리케이션에서 사
 ## **NPM의 주요 기능**
 1. **패키지 설치**  
    원하는 Node.js 모듈(패키지)을 설치할 수 있습니다.  
-   """
-   bash
+   ```bash
    npm install [패키지 이름]
-   """
+   ```
    - 기본적으로 설치한 패키지는 `node_modules` 폴더에 저장됩니다.
    - `npm i`로 줄여서 사용할 수 있습니다.
 
 2. **의존성 관리**  
    애플리케이션에서 사용하는 패키지 목록과 버전을 `package.json` 파일에 관리합니다.  
-   """
-   bash
+   ```bash
    npm init
-   """
+   ```
    명령어로 프로젝트를 초기화하면 `package.json`이 생성되며, 이후 설치한 패키지가 여기에 기록됩니다.
 
 3. **스크립트 실행**  
    `package.json` 파일에 정의된 스크립트를 실행할 수 있습니다.  
    예:  
-   """
-   json
+   ```json
    "scripts": {
      "start": "node app.js",
      "test": "echo 'Running tests...'"
    }
-   """
+   ```
    실행:  
-   """
-   bash
+   ```bash
    npm run start
    npm run test
-   """
+   ```
 
 4. **글로벌 패키지 관리**  
    개발 도구나 CLI(Command Line Interface) 툴은 전역(global)으로 설치하여 어디서든 실행 가능하게 설정할 수 있습니다.  
-   """
-   bash
+   ```bash
    npm install -g [패키지 이름]
-   """
+   ```
 
 5. **패키지 배포**  
    개발자가 만든 패키지를 NPM에 배포하여 다른 사람들이 사용할 수 있게 만들 수 있습니다.  
-   """
-   bash
+   ```bash
    npm publish
-   """
+   ```
 
 ## **주요 파일 및 폴더**
 1. **`package.json`**  
