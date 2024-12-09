@@ -1,6 +1,6 @@
 ---
-title: "Express에서 EJS 템플릿 엔진 초기 세팅: `views` 경로 설정의 중요성"
-excerpt: "Express와 EJS를 사용할 때 `views` 폴더의 경로를 명확히 설정해야 하는 이유와 그 설정 방법을 설명합니다. 실행 위치에 따른 문제를 방지하기 위해 `__dirname`을 활용하는 방식도 다룹니다."
+title: "Express에서 EJS 템플릿 엔진 초기 세팅: views 경로 설정의 중요성"
+excerpt: "Express와 EJS를 사용할 때 views 폴더의 경로를 명확히 설정해야 하는 이유와 그 설정 방법을 설명합니다. 실행 위치에 따른 문제를 방지하기 위해 __dirname 을 활용하는 방식도 다룹니다."
 categories:
   - Node
 tags:

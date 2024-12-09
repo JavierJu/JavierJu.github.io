@@ -40,6 +40,7 @@ Express는 다양한 템플릿 엔진을 지원하며, 대표적으로 다음과
 ### Express에서 템플릿 엔진 사용하기
 
 #### 1. Express 프로젝트 초기화
+
 ```bash
 mkdir my-express-app
 cd my-express-app
@@ -49,12 +50,14 @@ npm install express
 
 #### 2. 템플릿 엔진 설치
 사용할 템플릿 엔진을 설치합니다. 예를 들어, **Pug**를 사용하려면:
+
 ```bash
 npm install pug
 ```
 
 #### 3. 템플릿 엔진 설정
 템플릿 엔진을 Express 애플리케이션에 등록합니다.
+
 ```js
 const express = require('express');
 const app = express();
@@ -76,7 +79,8 @@ app.listen(3000, () => {
 
 #### 4. 템플릿 파일 작성
 `views/index.pug` 파일을 생성합니다.
-```pug
+
+```html
 doctype html
 html
   head
@@ -95,17 +99,20 @@ html
 EJS는 HTML과 유사한 문법으로 템플릿을 작성할 수 있는 인기 있는 엔진입니다.
 
 #### 설치
+
 ```bash
 npm install ejs
 ```
 
 #### Express 설정
+
 ```js
 app.set('view engine', 'ejs');
 app.set('views', './views');
 ```
 
 #### EJS 템플릿 파일 작성 (`views/index.ejs`)
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -120,6 +127,7 @@ app.set('views', './views');
 ```
 
 #### 라우트 설정
+
 ```js
 app.get('/', (req, res) => {
     res.render('index', { title: 'Welcome', message: 'Hello, EJS!' });
@@ -133,7 +141,8 @@ app.get('/', (req, res) => {
 
 #### 조건부 렌더링
 - **Pug**
-```pug
+
+```html
 if condition
   p Condition is true
 else
@@ -141,6 +150,7 @@ else
 ```
 
 - **EJS**
+
 ```html
 <% if (condition) { %>
     <p>Condition is true</p>
@@ -151,13 +161,15 @@ else
 
 #### 반복 렌더링
 - **Pug**
-```pug
+
+```html
 ul
   each item in items
     li= item
 ```
 
 - **EJS**
+
 ```html
 <ul>
     <% items.forEach(function(item) { %>
@@ -170,6 +182,7 @@ ul
 
 ### 정적 파일 통합
 Express에서 정적 파일(CSS, JS, 이미지 등)을 제공하려면 `express.static()`을 사용합니다.
+
 ```js
 app.use(express.static('public'));
 ```
