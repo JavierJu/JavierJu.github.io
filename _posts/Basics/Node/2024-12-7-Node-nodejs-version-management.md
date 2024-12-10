@@ -9,7 +9,7 @@ permalink: /Node/nodejs-version-management/
 toc: true
 toc_sticky: true
 date: 2024-12-7
-last_modified_at: 2024-12-7
+last_modified_at: 2024-12-10
 ---
 
 ## Node.js 버전 확인 및 업데이트
@@ -76,10 +76,12 @@ NVM은 GitHub에서 제공되며, 설치는 간단합니다.
    ```bash
    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
    ```
-   설치가 완료되면 `~/.bashrc` 또는 `~/.zshrc`에 다음 줄을 추가하세요:
+   설치가 완료되면 `~/.bashrc` 또는 `~/.zshrc`에 다음 줄을 추가하세요.
+
    ```bash
    export NVM_DIR="$HOME/.nvm"
    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+   ```
 
 2. **Windows**
 Windows 사용자는 [nvm-windows](https://github.com/coreybutler/nvm-windows)를 사용할 수 있습니다. 설치 후 명령 프롬프트 또는 PowerShell에서 아래 명령어를 사용하여 Node.js 버전을 관리할 수 있습니다.
