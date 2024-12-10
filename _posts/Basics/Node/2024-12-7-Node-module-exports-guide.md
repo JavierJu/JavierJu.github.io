@@ -132,7 +132,8 @@ exports = {
 
 ## **`module.exports`와 NPM의 관계**
 - `module.exports`는 NPM(Node Package Manager)과 직접적인 연결은 없지만, NPM 패키지들이 모듈화를 위해 내부적으로 활용합니다.
-- 예를 들어, `lodash` 패키지를 사용하면 `module.exports`를 통해 제공된 함수를 사용할 수 있습니다:
+- 예를 들어, `lodash` 패키지를 사용하면 `module.exports`를 통해 제공된 함수를 사용할 수 있습니다.
+
 ```js
 const _ = require('lodash');
 
