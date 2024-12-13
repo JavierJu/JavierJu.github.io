@@ -44,6 +44,9 @@ categories:
       #   url: /categories/VS-Code/
       - title: "Tools"
         url: /categories/Tools/
+      - title: "TBD"
+        url: /categories/TBD/
+
   
   - title: "Projects"
     children:
@@ -53,5 +56,3 @@ categories:
         url: /categories/Clone-Application/
       - title: "Simple Program Challenges"
         url: /categories/Simple-Program-Challenges/
-      - title: "TBD"
-        url: /categories/TBD/
