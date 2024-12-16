@@ -38,12 +38,13 @@ HTML5는 HTML 표준의 다섯 번째 버전으로, 웹의 발전과 요구 사�
 - 스타일 적용 전에는 디폴트로 **줄바꿈**이 이루어짐.
 
 예:
-""" html
+
+``` html
 <div>
     <h1>제목</h1>
     <p>내용입니다.</p>
 </div>
-"""
+```
 
 ### 인라인 요소 (Inline Element)
 - 콘텐츠 내부에 삽입되며, 다른 요소와 같은 줄에 위치합니다.
@@ -51,9 +52,10 @@ HTML5는 HTML 표준의 다섯 번째 버전으로, 웹의 발전과 요구 사�
 - 줄바꿈 없이 콘텐츠를 꾸미거나 하이퍼링크 등 특정 기능 추가에 사용.
 
 예:
-""" html
+
+``` html
 <p>이 문장에는 <strong>강조</strong>된 단어가 포함되어 있습니다.</p>
-"""
+```
 
 ### 기타 요소
 - **HTML5 시맨틱 요소**: `<header>`, `<footer>`, `<nav>`, `<article>`, `<section>`.
@@ -94,7 +96,8 @@ HTML5는 HTML 표준의 다섯 번째 버전으로, 웹의 발전과 요구 사�
 ## HTML 시맨틱 요소 사용법
 
 ### 문서 구조 잡기
-""" html
+
+``` html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -128,16 +131,17 @@ HTML5는 HTML 표준의 다섯 번째 버전으로, 웹의 발전과 요구 사�
     </footer>
 </body>
 </html>
-"""
+```
 
 ### 폼 예시
-""" html
+
+``` html
 <form action="/submit" method="POST">
     <label for="name">이름:</label>
     <input type="text" id="name" name="name">
     <button type="submit">전송</button>
 </form>
-"""
+```
 
 ---
 
