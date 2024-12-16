@@ -155,12 +155,10 @@ userSchema.plugin(timestamp);
    Mongoose를 사용하려면 먼저 MongoDB와 연결해야 합니다.
 
    ```javascript
-   mongoose.connect('mongodb://localhost:27017/mydb', {
-     useNewUrlParser: true,
-     useUnifiedTopology: true
-   })
-   .then(() => console.log('MongoDB connected'))
-   .catch(err => console.error('MongoDB connection error:', err));
+   const mongoose = require('mongoose');
+   mongoose.connect('mongodb://127.0.0.1:27017/mydb')
+    .then(() => console.log('MongoDB connected'));
+    .catch(err => console.error('MongoDB connection error:', err));
    ```
 
 2. **스키마 및 모델 정의**
