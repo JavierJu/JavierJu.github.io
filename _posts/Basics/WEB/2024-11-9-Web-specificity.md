@@ -23,11 +23,13 @@ CSS의 **우선순위(Specificity)**는 여러 규칙이 같은 요소에 적용
 CSS 우선순위는 아래와 같은 기준으로 계산됩니다:
 
 1. **인라인 스타일**: HTML 요소에 직접 작성된 `style` 속성 (가장 높은 우선순위)
+
    ``` html
    <div style="color: red;">Hello</div>
    ```
 
 2. **ID 선택자**: `#id`
+
    ``` css
    #header {
        color: blue;
@@ -35,6 +37,7 @@ CSS 우선순위는 아래와 같은 기준으로 계산됩니다:
    ```
 
 3. **클래스, 속성, 의사 클래스 선택자**: `.class`, `[attribute]`, `:hover`, `:nth-child()` 등
+
    ``` css
    .content {
        color: green;
@@ -42,6 +45,7 @@ CSS 우선순위는 아래와 같은 기준으로 계산됩니다:
    ```
 
 4. **태그 선택자**: `div`, `h1`, `p`, 등
+
    ``` css
    div {
        color: black;
@@ -49,6 +53,7 @@ CSS 우선순위는 아래와 같은 기준으로 계산됩니다:
    ```
 
 5. **와일드카드, 상위 선택자, 유산된 스타일**: `*`, `div p`, 부모 요소에서 상속된 스타일 등
+
    ``` css
    * {
        color: gray;
