@@ -9,8 +9,8 @@ tags:
 permalink: /Node/nodejs-categories-refactor/
 toc: true
 toc_sticky: true
-date: 2024-12-16
-last_modified_at: 2024-12-16
+date: 2024-12-17
+last_modified_at: 2024-12-17
 ---
 
 Node.js 애플리케이션에서 데이터를 어떻게 관리하느냐는 코드의 유지보수성과 확장성에 중요한 영향을 미칩니다. 이 글에서는 특정 데이터(예: `categories`)를 효과적으로 관리하기 위해 사용하는 두 가지 리팩터링 방법을 살펴보겠습니다.
