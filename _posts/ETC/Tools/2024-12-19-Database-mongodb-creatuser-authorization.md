@@ -1,12 +1,12 @@
 ---
-title: "AWS 인스턴스에서 MongoDB와 Mongoose 연결하기 - MongoDB 사용자 정보 설정 및 인증 활성화"
-excerpt: "AWS EC2 인스턴스의 MongoDB를 설정하고 Mongoose를 통해 외부 애플리케이션에서 연결하는 방법을 단계별로 알아봅니다."
+title: "MongoDB 사용자 정보 설정 및 인증 활성화"
+excerpt: "MongoDB 사용자 정보 설정 및 인증 활성화 방법을 단계별로 알아봅니다."
 categories:
   - Tools
   
 tags:
   - [AWS, MongoDB, Mongoose, Backend]
-permalink: /Tools/mongodb-mongoose-connection/
+permalink: /Tools/mongodb-creatuser-authorization/
 toc: true
 toc_sticky: true
 date: 2024-12-19
