@@ -3,10 +3,10 @@
 title: "Express, MongoDB, Mongoose: 완벽 가이드" 
 excerpt: "Express 서버와 MongoDB를 Mongoose로 연결하는 방법과 함께, 간단한 TODO 애플리케이션 예제를 통해 그 과정을 상세히 알아봅니다." 
 categories:
-- Tools
+- Node
 Web Development tags:
 - [JavaScript, Express, MongoDB, Mongoose, Node.js] 
-permalink: /Tools/express-mongo-mongoose-guide/ 
+permalink: /Node/express-mongo-mongoose-guide/ 
 toc: true 
 toc_sticky: true 
 date: 2024-12-15

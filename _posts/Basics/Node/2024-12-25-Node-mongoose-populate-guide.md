@@ -2,10 +2,10 @@
 title: "Mongoose의 populate 명령어: MongoDB 관계형 데이터 처리의 핵심"
 excerpt: "Mongoose의 populate 명령어를 통해 MongoDB에서 참조 데이터를 효율적으로 조회하는 방법을 알아봅니다. 기본 사용법부터 고급 활용법까지 자세히 설명합니다."
 categories:
-  - Tools
+  - Node
 tags:
   - [Mongoose, MongoDB, JavaScript, Backend]
-permalink: /Tools/mongoose-populate-guide/
+permalink: /Node/mongoose-populate-guide/
 toc: true
 toc_sticky: true
 date: 2024-12-25

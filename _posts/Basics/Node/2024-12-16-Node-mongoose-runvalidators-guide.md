@@ -2,10 +2,10 @@
 title: "Mongoose에서 runValidators의 역할과 사용법"
 excerpt: "Mongoose에서 업데이트 시 스키마 유효성 검사를 적용하는 runValidators 옵션의 동작 원리와 코드 예제를 알아봅니다."
 categories:
-  - Tools
+  - Node
 tags:
   - [Mongoose, MongoDB, JavaScript, Backend, Data Validation]
-permalink: /Tools/mongoose-runvalidators-guide/
+permalink: /Node/mongoose-runvalidators-guide/
 toc: true
 toc_sticky: true
 date: 2024-12-16

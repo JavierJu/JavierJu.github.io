@@ -2,10 +2,10 @@
 title: "Mongoose 스키마 유효성 검사: 데이터 무결성의 핵심"
 excerpt: "Mongoose의 스키마를 정의할 때 사용할 수 있는 다양한 유효성 검사 옵션과 커스텀 검증 방법에 대해 알아봅니다."
 categories:
-  - Tools
+  - Node
 tags:
   - [MongoDB, Mongoose, Backend, JavaScript]
-permalink: /Tools/mongoose-schema-validation/
+permalink: /Node/mongoose-schema-validation/
 toc: true
 toc_sticky: true
 date: 2024-12-16

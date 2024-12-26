@@ -2,10 +2,10 @@
 title: "Mongoose 가상 필드: Getter와 Setter 활용법"
 excerpt: "Mongoose의 가상 필드(Virtuals)를 정의하고, Getter와 Setter를 활용하여 데이터를 효과적으로 관리하는 방법을 알아봅니다."
 categories:
-  - Tools
+  - Node
 tags:
   - [JavaScript, Mongoose, MongoDB, ODM, Backend]
-permalink: /Tools/mongoose-virtuals-guide/
+permalink: /Node/mongoose-virtuals-guide/
 toc: true
 toc_sticky: true
 date: 2024-12-16

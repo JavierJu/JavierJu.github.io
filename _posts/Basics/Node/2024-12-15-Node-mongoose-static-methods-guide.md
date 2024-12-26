@@ -2,11 +2,11 @@
 title: "Mongoose에서 정적 메서드 활용하기: 모델 기반 데이터 처리의 효율성"
 excerpt: "Mongoose의 정적 메서드 정의와 활용 방법을 통해 효율적인 데이터베이스 작업과 코드 재사용성을 높이는 방법을 소개합니다."
 categories:
-  - Tools
+  - Node
   
 tags:
   - [MongoDB, Mongoose, Node.js, Backend, 데이터베이스]
-permalink: /Tools/mongoose-static-methods-guide/
+permalink: /Node/mongoose-static-methods-guide/
 toc: true
 toc_sticky: true
 date: 2024-12-15

@@ -2,10 +2,10 @@
 title: "Mongoose를 사용한 MongoDB 연결 방법 비교"
 excerpt: "Mongoose를 통해 MongoDB에 연결하는 두 가지 접근 방식: 이벤트 기반 처리와 Promise 기반 처리의 차이점을 알아봅니다."
 categories:
-  - Tools
+  - Node
 tags:
   - [JavaScript, MongoDB, Mongoose, Backend]
-permalink: /Tools/mongoose-connection-comparison/
+permalink: /Node/mongoose-connection-comparison/
 toc: true
 toc_sticky: true
 date: 2024-12-21

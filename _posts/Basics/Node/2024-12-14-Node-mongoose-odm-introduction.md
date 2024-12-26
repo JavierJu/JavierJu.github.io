@@ -2,8 +2,8 @@
 title: "Mongoose ODM: Node.js와 MongoDB의 데이터 관리 솔루션"
 excerpt: "Mongoose ODM을 사용한 MongoDB 데이터 모델링과 CRUD 작업 방법을 알아보고, 주요 기능과 장단점을 탐구합니다."
 categories:
-  - Tools
-permalink: /Tools/mongoose-odm-introduction/
+  - Node
+permalink: /Node/mongoose-odm-introduction/
 toc: true
 toc_sticky: true
 date: 2024-12-14

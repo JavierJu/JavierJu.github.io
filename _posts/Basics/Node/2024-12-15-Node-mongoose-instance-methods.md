@@ -2,8 +2,8 @@
 title: "Mongoose 인스턴스 메서드의 이해와 활용"
 excerpt: "Mongoose의 인스턴스 메서드를 설정하고 사용하는 방법, 그리고 비즈니스 로직에 캡슐화된 기능을 구현하는 사례를 살펴봅니다."
 categories:
-  - Tools
-permalink: /Tools/mongoose-instance-methods/
+  - Node
+permalink: /Node/mongoose-instance-methods/
 toc: true
 toc_sticky: true
 date: 2024-12-15

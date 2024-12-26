@@ -2,11 +2,11 @@
 title: "Mongoose에서 미들웨어의 개요와 활용법"
 excerpt: "Mongoose 미들웨어를 활용하여 데이터 유효성 검사, 로깅, 데이터 가공 등의 작업을 효율적으로 처리하는 방법을 알아봅니다."
 categories:
-  - Tools
+  - Node
   
 tags:
   - [JavaScript, Node.js, Mongoose, MongoDB, Backend]
-permalink: /Tools/mongoose-middleware-guide/
+permalink: /Node/mongoose-middleware-guide/
 toc: true
 toc_sticky: true
 date: 2024-12-16
