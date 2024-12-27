@@ -3,6 +3,7 @@ title: "MEAN, MERN, LAPM 스택 비교와 사용 사례"
 excerpt: "MEAN, MERN, LAPM 스택을 비교하고 각 조합의 특징과 사용 용도를 설명합니다. 웹 개발에서 적합한 기술 스택을 찾는 데 도움이 됩니다."
 categories:
   - Info
+  - Full Stack Development
 tags:
   - [MEAN, MERN, LAPM, Full Stack, Backend, Frontend]
 permalink: /info/stack-comparison/

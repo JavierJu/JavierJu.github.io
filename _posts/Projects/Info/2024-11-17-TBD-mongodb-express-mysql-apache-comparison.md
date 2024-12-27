@@ -3,6 +3,7 @@ title: "MongoDB, Express, MySQL, Apache: 차이점과 조합, 대체 가능성 �
 excerpt: "MongoDB와 MySQL, Express와 Apache의 차이점과 이들의 조합 및 대체 가능성에 대해 알아봅니다."
 categories:
   - Info
+  - Database
 tags:
   - [Database, Web Framework, Server, MongoDB, MySQL, Express, Apache]
 permalink: /info/mongodb-express-mysql-apache-comparison/

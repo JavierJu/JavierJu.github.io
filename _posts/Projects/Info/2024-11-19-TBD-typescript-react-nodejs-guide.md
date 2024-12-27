@@ -3,6 +3,7 @@ title: "TypeScript, React, Node.js: 차이점과 학습 순서 가이드"
 excerpt: "TypeScript, React, Node.js의 주요 차이점과 각각의 용도, 효과적인 학습 순서를 정리합니다."
 categories:
   - Info
+  - Full Stack Development
 tags:
   - [JavaScript, TypeScript, React, Node.js, Full Stack Development]
 permalink: /info/typescript-react-nodejs-guide/

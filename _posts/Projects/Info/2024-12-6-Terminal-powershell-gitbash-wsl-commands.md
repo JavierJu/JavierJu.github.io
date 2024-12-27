@@ -3,6 +3,7 @@ title: "PowerShell, Git Bash, WSL 명령어 차이와 활용법"
 excerpt: "PowerShell, Git Bash, WSL 환경에서 사용되는 명령어 차이를 비교하고 각 환경의 장단점과 활용 사례를 알아봅니다."
 categories:
   - Info
+  - Terminal
 tags:
   - [Command Line, PowerShell, Git Bash, WSL, Windows]
 permalink: /info/powershell-gitbash-wsl-commands/

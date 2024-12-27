@@ -3,6 +3,7 @@ title: "TypeScript의 특성, 기능, 사용 이유와 상황"
 excerpt: "TypeScript의 주요 특성, 기능, 사용 이유 및 상황에 대해 알아보고, JavaScript와의 차이점도 살펴봅니다."
 categories:
   - Info
+  - TypeScript
 tags:
   - [TypeScript, JavaScript, Web Development]
 permalink: /info/typescript-features-and-usage/

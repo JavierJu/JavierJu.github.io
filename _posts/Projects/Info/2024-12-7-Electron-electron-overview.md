@@ -3,6 +3,7 @@ title: "Electron의 개요와 특징: 크로스 플랫폼 데스크탑 애플리
 excerpt: "Electron의 구성, 주요 기능, 장단점, 그리고 대표적인 사용 사례를 알아보며, 웹 기술을 활용한 데스크탑 애플리케이션 개발의 가능성을 탐구합니다."
 categories:
   - Info
+  - Electron
 tags:
   - [Electron, JavaScript, Desktop Application, 크로스 플랫폼]
 permalink: /info/electron-overview/

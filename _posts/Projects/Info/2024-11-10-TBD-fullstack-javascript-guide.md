@@ -4,6 +4,8 @@ excerpt: "JavaScript를 메인으로 프론트엔드와 백엔드 기술을 단�
 
 categories:
   - Info
+  - JavaScript
+  - Full Stack Development
 
 tags:
   - [JavaScript, Full-Stack, Node.js, React, Web Development]

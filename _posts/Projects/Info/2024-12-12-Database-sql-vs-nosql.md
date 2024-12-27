@@ -3,6 +3,7 @@ title: "SQL과 NoSQL 데이터베이스의 차이점과 선택 기준"
 excerpt: "SQL과 NoSQL의 특징, 장단점, 그리고 각각의 사용 사례를 살펴보며, 데이터베이스 선택 시 고려해야 할 요소를 정리합니다."
 categories:
   - Info
+  - Database
 tags:
   - [SQL, NoSQL, Database, 개발]
 permalink: /info/sql-vs-nosql/

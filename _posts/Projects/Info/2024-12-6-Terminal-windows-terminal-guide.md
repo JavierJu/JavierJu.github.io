@@ -3,6 +3,7 @@ title: "터미널이란 무엇이며, 왜 배워야 할까? (Windows 기준 터�
 excerpt: "터미널의 개념과 필요성, 주요 명령어, Windows에서 터미널 설치 및 실행 방법을 정리한 가이드입니다."
 categories:
   - Info
+  - Terminal
 tags:
   - [Terminal, Command Line, Windows, PowerShell, Windows Terminal]
 permalink: /info/windows-terminal-guide/

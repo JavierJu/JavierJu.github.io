@@ -3,6 +3,7 @@ title: "Bash에서 man 페이지와 flag의 개념 및 활용 방법"
 excerpt: "Bash의 man 페이지와 flag에 대해 이해하고 이를 활용하여 효율적으로 명령어를 사용하는 방법을 알아봅니다."
 categories:
   - Info
+  - Terminal
 tags:
   - [Bash, Linux, Command Line, man, Flag]
 permalink: /info/bash-man-flag-guide/

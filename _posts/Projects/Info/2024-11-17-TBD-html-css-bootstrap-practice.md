@@ -3,6 +3,7 @@ title: "HTML, CSS, Bootstrap 연습 방법: 클론 코딩과 연습 사이트 �
 excerpt: "HTML, CSS, 그리고 Bootstrap의 주요 기능을 익히기 위한 웹페이지 클론 코딩 및 유용한 연습 사이트에 대해 소개합니다."
 categories:
   - Info
+  - Web
 tags:
   - [HTML, CSS, Bootstrap, Web Practice, Clone Coding, Learning Resources]
 permalink: /info/html-css-bootstrap-practice/
