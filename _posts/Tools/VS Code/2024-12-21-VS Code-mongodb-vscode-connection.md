@@ -3,6 +3,7 @@ title: "VS Code에서 AWS MongoDB에 연결하여 효율적인 작업 환경 구
 excerpt: "VS Code와 MongoDB 확장 프로그램을 사용하여 AWS MongoDB에 연결하고 데이터 탐색, 쿼리 실행, 스키마 관리 등의 다양한 기능을 활용하는 방법을 알아봅니다."
 categories:
   - VS Code
+  - MongoDB
   
 tags:
   - [MongoDB, VS Code, AWS, 데이터베이스, 클라우드]
