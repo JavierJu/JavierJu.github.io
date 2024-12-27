@@ -1,9 +1,9 @@
 ---
-title: "GIT"
+title: "Git"
 layout: category
 permalink: /categories/git/
 author_profile: true
-taxonomy: GIT
+taxonomy: Git
 sidebar:
   nav: "categories"
 ---

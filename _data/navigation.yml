@@ -29,10 +29,6 @@ categories:
       url: /categories/javascript/
     - title: "Node"
       url: /categories/node/
-    - title: "React"
-      url: /categories/react/
-    - title: "TypeScript"
-      url: /categories/typescript/
 
   - title: "Database"
     children:
@@ -43,7 +39,7 @@ categories:
     children:
       - title: "AWS"
         url: /categories/aws/
-      - title: "GIT"
+      - title: "Git"
         url: /categories/git/
       - title: "VS Code"
         url: /categories/vs-code/
