@@ -1,9 +1,9 @@
 ---
-title: "React"
+title: "Info"
 layout: category
-permalink: /categories/react/
+permalink: /categories/info/
 author_profile: true
-taxonomy: React
+taxonomy: Info
 sidebar:
   nav: "categories"
 ---

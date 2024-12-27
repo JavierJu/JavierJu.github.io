@@ -1,7 +1,7 @@
 ---
 title: "GIT"
 layout: category
-permalink: /categories/GIT/
+permalink: /categories/git/
 author_profile: true
 taxonomy: GIT
 sidebar:

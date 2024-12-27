@@ -1,7 +1,7 @@
 ---
 title: "VS Code"
 layout: category
-permalink: /categories/VS-Code/
+permalink: /categories/vs-code/
 author_profile: true
 taxonomy: VS Code
 sidebar:

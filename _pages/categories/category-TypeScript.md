@@ -1,7 +1,7 @@
 ---
 title: "TypeScript"
 layout: category
-permalink: /categories/TypeScript/
+permalink: /categories/typescript/
 author_profile: true
 taxonomy: TypeScript
 sidebar:

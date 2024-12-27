@@ -1,7 +1,7 @@
 ---
 title: "Node"
 layout: category
-permalink: /categories/Node/
+permalink: /categories/node/
 author_profile: true
 taxonomy: Node
 sidebar:

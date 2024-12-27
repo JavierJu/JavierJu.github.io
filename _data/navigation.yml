@@ -24,35 +24,33 @@ categories:
   - title: "Basics"
     children:
     - title: "Web"
-      url: /categories/Web/
+      url: /categories/web/
     - title: "JavaScript"
-      url: /categories/JavaScript/
-    - title: "TypeScript"
-      url: /categories/TypeScript/
-    - title: "React"
-      url: /categories/React/
+      url: /categories/javascript/
     - title: "Node"
-      url: /categories/Node/
+      url: /categories/node/
+    - title: "React"
+      url: /categories/react/
+    - title: "TypeScript"
+      url: /categories/typescript/
 
-  - title: "Etc"
+  - title: "Database"
     children:
-      # - title: "AWS"
-      #   url: /categories/AWS/
-      # - title: "GIT"
-      #   url: /categories/GIT/
-      # - title: "VS Code"
-      #   url: /categories/VS-Code/
-      - title: "Tools"
-        url: /categories/Tools/
-      - title: "TBD"
-        url: /categories/TBD/
+    - title: "MongoDB"
+      url: /categories/mongodb/
 
+  - title: "Tools"
+    children:
+      - title: "AWS"
+        url: /categories/aws/
+      - title: "GIT"
+        url: /categories/git/
+      - title: "VS Code"
+        url: /categories/vs-code/
   
   - title: "Projects"
     children:
-      - title: "Smart Farm"
-        url: /categories/Smart-Farm/
-      - title: "Clone Application"
-        url: /categories/Clone-Application/
-      - title: "Simple Program Challenges"
-        url: /categories/Simple-Program-Challenges/
+      - title: "Info"
+        url: /categories/info/
+      - title: "Yelp Camp"
+        url: /categories/yelp-camp/
