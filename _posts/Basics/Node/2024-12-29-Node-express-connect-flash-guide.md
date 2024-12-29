@@ -9,8 +9,8 @@ tags:
 permalink: /node/express-connect-flash-guide/
 toc: true
 toc_sticky: true
-date: 2024-12-28
-last_modified_at: 2024-12-28
+date: 2024-12-29
+last_modified_at: 2024-12-29
 ---
 
 ## connect-flash란?
