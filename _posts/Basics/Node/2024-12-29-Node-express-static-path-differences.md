@@ -21,6 +21,7 @@ Express에서 정적 파일을 제공할 때 `express.static`을 사용합니다
 
 ### 코드 예제
 1. **절대 경로를 사용하는 방식**:
+
 ```javascript
 const express = require('express');
 const path = require('path');
@@ -30,6 +31,7 @@ app.use(express.static(path.join(__dirname, '/publics')));
 ```
 
 2. **상대 경로를 사용하는 방식**:
+
 ```javascript
 const express = require('express');
 const app = express();
