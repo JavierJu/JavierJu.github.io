@@ -1,5 +1,5 @@
 ---
-title: "Info"
+title: "Etc"
 layout: category
 permalink: /categories/info/
 author_profile: true
