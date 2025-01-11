@@ -9,7 +9,7 @@ main:
   - title: "GitHub"
     url: https://github.com/JavierJu
 
-  # - title: "Projects"
+  - title: "Projects"
   #   url: /projects/
 
   - title: "Portfolio"
@@ -21,8 +21,6 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "Info"
-    url: /categories/info/
 
   - title: "Basics"
     children:
@@ -34,6 +32,8 @@ categories:
       url: /categories/node/
     - title: "React"
       url: /categories/react/
+    - title: "Etc"
+      url: /categories/info/
 
   - title: "Tools"
     children:
