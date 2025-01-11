@@ -40,7 +40,7 @@ categories:
       - title: "AWS"
         url: /categories/aws/
       - title: "MongoDB"
-      url: /categories/mongodb/
+        url: /categories/mongodb/
       - title: "Git"
         url: /categories/git/
       - title: "VS Code"
