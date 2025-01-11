@@ -5,7 +5,7 @@ categories:
   - Yelp Camp
 tags:
   - [Node.js, Express.js, MongoDB, Full Stack, JavaScript]
-permalink: /yelp-camp/yelpcamp-fullstack-guide/
+permalink: /info/yelpcamp-fullstack-guide/
 toc: true
 toc_sticky: true
 date: 2024-11-22

@@ -21,6 +21,9 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
+  - title: "Info"
+    url: /categories/info/
+
   - title: "Basics"
     children:
     - title: "Web"
@@ -29,24 +32,16 @@ categories:
       url: /categories/javascript/
     - title: "Node"
       url: /categories/node/
-
-  - title: "Database"
-    children:
-    - title: "MongoDB"
-      url: /categories/mongodb/
+    - title: "React"
+      url: /categories/react/
 
   - title: "Tools"
     children:
       - title: "AWS"
         url: /categories/aws/
+      - title: "MongoDB"
+      url: /categories/mongodb/
       - title: "Git"
         url: /categories/git/
       - title: "VS Code"
         url: /categories/vs-code/
-  
-  - title: "Projects"
-    children:
-      - title: "Info"
-        url: /categories/info/
-      - title: "Yelp Camp"
-        url: /categories/yelp-camp/

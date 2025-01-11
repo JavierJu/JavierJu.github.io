@@ -1,9 +1,9 @@
 ---
-title: "Yelp Camp"
+title: "React"
 layout: category
-permalink: /categories/yelp-camp/
+permalink: /categories/react/
 author_profile: true
-taxonomy: Yelp Camp
+taxonomy: React
 sidebar:
   nav: "categories"
 ---
