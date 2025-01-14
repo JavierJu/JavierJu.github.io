@@ -3,6 +3,7 @@ title: "EJS에서 React.js로 전환: 유저 관리와 외부 로그인 구현 �
 excerpt: "기존 EJS 기반 애플리케이션에서 React.js로 전환할 때 고려해야 할 장점과 단점, 그리고 실용적인 접근 방안을 탐구합니다."
 categories:
   - Web Development
+  - React
 tags:
   - [JavaScript, React.js, EJS, Frontend]
 permalink: /react/react-ejs-rebuild/

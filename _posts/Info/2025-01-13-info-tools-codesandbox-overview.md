@@ -3,6 +3,7 @@ title: "CodeSandbox의 개요와 활용법: 브라우저 기반 개발환경"
 excerpt: "CodeSandbox의 주요 기능, 사용법, 장점 및 활용 사례를 소개합니다. 빠르고 간편한 웹 기반 개발환경을 만나보세요."
 categories:
   - Development Tools
+  - Info
 tags:
   - [CodeSandbox, 개발 도구, 웹 개발, 협업]
 permalink: /info/tools-codesandbox-overview/
