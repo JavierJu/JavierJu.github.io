@@ -4,6 +4,7 @@ excerpt: "앱 개발 후 배포를 위한 다양한 호스팅 서비스를 알�
 categories:
   - Hosting
   - Web Development
+  - Info
 tags:
   - [Hosting, MERN Stack, Fullstack Development, Backend, Frontend]
 permalink: /info/hosting-app-hosting-services/

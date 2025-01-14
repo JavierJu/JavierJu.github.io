@@ -2,7 +2,7 @@
 title: "EJS에서 JavaScript로 객체 데이터를 안전하게 전달하는 방법"
 excerpt: "EJS를 활용하여 서버 데이터를 클라이언트 JavaScript로 안전하게 전달하는 방법을 JSON.stringify와 JSON.parse를 통해 알아봅니다."
 categories:
-  - Web Development
+  - Web
   - JavaScript
   - Backend
   - Node.js

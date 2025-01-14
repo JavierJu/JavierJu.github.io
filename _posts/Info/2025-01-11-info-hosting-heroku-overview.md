@@ -5,6 +5,8 @@ categories:
   - Hosting
   - Cloud
   - DevOps
+  - Info
+
 tags:
   - [Heroku, PaaS, Cloud Hosting, App Deployment]
 permalink: /info/hosting-heroku-overview/

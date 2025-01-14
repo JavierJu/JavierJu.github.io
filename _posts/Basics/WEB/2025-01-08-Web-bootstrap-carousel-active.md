@@ -5,7 +5,7 @@ categories:
   - Frontend
   - EJS
   - Bootstrap
-  - Web Development
+  - Web
 
 tags:
   - [Bootstrap, EJS, 이미지 슬라이더, Frontend]

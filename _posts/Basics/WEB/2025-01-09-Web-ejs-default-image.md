@@ -2,7 +2,7 @@
 title: "EJS에서 이미지가 없을 때 기본 이미지를 설정하는 방법"
 excerpt: "EJS 템플릿에서 이미지가 없는 경우 오류를 방지하고 기본 이미지를 표시하는 방법을 단계별로 알아봅니다."
 categories:
-  - Web Development
+  - Web
 tags:
   - [EJS, Node.js, Express, Web Development]
 permalink: /web/ejs-default-image/

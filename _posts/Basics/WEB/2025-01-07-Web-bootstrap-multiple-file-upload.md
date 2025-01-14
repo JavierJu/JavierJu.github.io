@@ -2,7 +2,7 @@
 title: "Bootstrap을 활용한 다중 파일 업로드 구현: 기본 및 확장 방법"
 excerpt: "Bootstrap을 기반으로 다중 파일 업로드를 구현하고, Dropzone.js 및 FilePond.js와 같은 라이브러리를 활용하여 파일 목록 표시와 삭제 기능을 간단하게 추가하는 방법을 알아봅니다."
 categories:
-  - Web Development
+  - Web
 tags:
   - [Bootstrap, JavaScript, File Upload, Dropzone.js, FilePond.js]
 permalink: /web/bootstrap-multiple-file-upload/

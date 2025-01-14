@@ -7,6 +7,8 @@ categories:
   - Web Development
   - MERN
   - Tools
+  - Info
+
   
 tags:
   - [Render, Hosting, Cloud, Fullstack, MERN]

@@ -3,6 +3,7 @@ title: "Cross-Site Scripting (XSS): 개념과 방어 방법"
 excerpt: "Cross-Site Scripting(XSS)의 원리, 종류, 위험성, 그리고 효과적인 방어 방법에 대해 알아봅니다."
 categories:
   - Web Security
+  - Info
 tags:
   - [XSS, 웹 보안, 취약점, 클라이언트 보안]
 permalink: /info/web-security-xss-explained/

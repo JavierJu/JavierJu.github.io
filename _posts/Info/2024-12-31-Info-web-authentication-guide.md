@@ -5,7 +5,7 @@ categories:
   - WebSecurity
   - Authentication
   - Technology
-  
+  - Info
 tags:
   - [WebAuthn, OAuth, MFA, SSO, 인증 보안]
 permalink: /info/web-authentication-guide/

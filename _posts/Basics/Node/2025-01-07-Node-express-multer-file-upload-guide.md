@@ -3,7 +3,7 @@ title: "Express에서 Multer를 사용한 파일 업로드: 저장 위치와 서
 excerpt: "Multer를 활용해 파일을 업로드하는 방법과 로컬 저장소, 클라우드 저장소, 데이터베이스 저장소의 장단점을 비교하며 적합한 서비스를 선택하는 방법을 안내합니다."
 categories:
   - Express
-  - Node.js
+  - Node
   - Backend
   - Cloud Storage
 tags:

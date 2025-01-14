@@ -2,9 +2,9 @@
 title: "GeoJSON과 Mapbox Geocoding 연동: Node.js와 MongoDB로 구현하기"
 excerpt: "GeoJSON 데이터 구조와 Mapbox의 Geocoding API를 활용하여 Node.js와 MongoDB로 지리 데이터를 저장하고 활용하는 방법을 알아봅니다."
 categories:
+  - Node
   - Web Development
   - GeoSpatial
-  - Node.js
   - MongoDB
   - Mapbox
   

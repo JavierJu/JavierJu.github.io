@@ -5,7 +5,7 @@ categories:
   - Frontend
   - Bootstrap
   - CSS
-  - Web Development
+  - Web
 tags:
   - [CSS, Bootstrap, Web Design, Frontend]
 permalink: /web/bootstrap-ml-to-ms-auto/

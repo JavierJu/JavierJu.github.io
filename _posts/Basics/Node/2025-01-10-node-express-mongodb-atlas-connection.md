@@ -2,6 +2,7 @@
 title: "Express에서 MongoDB Atlas 연결하기: 클라우드 데이터베이스 활용 가이드"
 excerpt: "MongoDB Atlas를 Express 애플리케이션과 연결하는 방법을 단계별로 알아보고, Mongoose를 활용한 데이터베이스 작업 예제를 제공합니다."
 categories:
+  - Node
   - Express
   - MongoDB
   - Backend

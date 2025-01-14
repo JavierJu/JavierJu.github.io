@@ -4,6 +4,7 @@ excerpt: "SQL Injection과 NoSQL Injection의 정의, 공격 기법, 사례, 그
 categories:
   - Database
   - Security
+  - Info
 tags:
   - [SQL, NoSQL, Injection, Database Security, MongoDB]
 permalink: /info/database-sql-nosql-injection/

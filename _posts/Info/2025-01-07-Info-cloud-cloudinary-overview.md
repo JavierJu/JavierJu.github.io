@@ -4,6 +4,7 @@ excerpt: "Cloudinary의 주요 기능, 장점, 사용 사례, 그리고 요금�
 categories:
   - Cloud
   - Media Management
+  - Info
 tags:
   - [Cloudinary, Media, Image Optimization, Video Management, CDN]
 permalink: /info/cloud-cloudinary-overview/ 

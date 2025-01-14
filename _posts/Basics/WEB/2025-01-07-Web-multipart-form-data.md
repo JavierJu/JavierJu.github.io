@@ -2,7 +2,7 @@
 title: "multipart/form-data: 파일 업로드와 폼 데이터 전송의 이해"
 excerpt: "웹 애플리케이션에서 파일 업로드와 텍스트 데이터를 동시에 전송하는 multipart/form-data의 구조와 작동 방식을 알아봅니다."
 categories:
-  - Web Development
+  - Web
 tags:
   - [HTML, HTTP, 파일 업로드, multipart, 웹 개발]
 permalink: /web/multipart-form-data/

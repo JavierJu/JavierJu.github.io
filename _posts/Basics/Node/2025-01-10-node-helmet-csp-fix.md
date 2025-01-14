@@ -2,6 +2,7 @@
 title: "Helmet.js와 CSP(Content Security Policy) 오류 해결하기"
 excerpt: "Helmet.js로 CSP(Content Security Policy)를 설정할 때 발생하는 외부 리소스 차단 문제를 해결하는 방법을 다룹니다."
 categories:
+  - Node
   - Web Development
 tags:
   - [Node.js, Helmet.js, Security, CSP, 웹 개발]

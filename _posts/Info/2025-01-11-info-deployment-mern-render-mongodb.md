@@ -5,6 +5,7 @@ categories:
   - Deployment
   - MERN
   - Web Development
+  - Info
 tags:
   - [MERN, Render, MongoDB Atlas, GitHub, 배포]
 permalink: /info/deployment-mern-render-mongodb/

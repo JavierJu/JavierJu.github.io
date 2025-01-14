@@ -3,6 +3,8 @@ title: "SDK란 무엇인가? Mapbox SDK 예시로 이해하기"
 excerpt: "SDK는 소프트웨어 개발을 위한 도구 모음으로, Mapbox와 같은 서비스에서 제공하는 SDK가 개발자에게 어떻게 도움이 되는지 설명합니다."
 categories:
   - 개발
+  - Info
+
 tags:
   - [SDK, Mapbox, 개발자 도구, JavaScript, iOS, Android]
 permalink: /info/dev-sdk-introduction/

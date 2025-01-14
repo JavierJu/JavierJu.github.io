@@ -5,6 +5,7 @@ categories:
   - Jekyll
   - Multilingual
   - Git Blog
+  - Git
   - Web Development
   
 tags:

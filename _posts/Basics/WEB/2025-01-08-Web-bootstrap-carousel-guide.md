@@ -4,7 +4,7 @@ excerpt: "Bootstrap의 Carousel 컴포넌트에 대해 자세히 알아보고, �
 categories:
   - Frontend
   - Bootstrap
-  - Web Development
+  - Web
 tags:
   - [HTML, CSS, JavaScript, Bootstrap, Carousel]
 permalink: /web/bootstrap-carousel-guide/

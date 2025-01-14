@@ -5,9 +5,10 @@ categories:
   - GIS
   - Mapping
   - Development
-  - Web
+  - Web Development
   - Mobile
-  
+  - Info
+ 
 tags:
   - [Mapbox, 위치 기반 서비스, 지도 제작, Web Development, Mobile Development]
 permalink: /info/gis-mapbox-overview/

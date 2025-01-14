@@ -2,7 +2,7 @@
 title: "Starability: CSS로 구현하는 간단하고 세련된 별점 평가 UI"
 excerpt: "Starability를 활용해 JavaScript 없이 HTML과 CSS로 별점 평가 UI를 구현하는 방법과 주요 특징을 살펴봅니다."
 categories:
-  - Web Development
+  - Web
   - CSS
   - UI/UX
   - Open Source
