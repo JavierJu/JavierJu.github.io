@@ -14,8 +14,6 @@ date: 2025-01-14
 last_modified_at: 2025-01-14
 ---
 
-## React Developer Tools: 설치 및 사용 가이드
-
 React Developer Tools는 React 애플리케이션의 디버깅과 분석을 도와주는 강력한 Chrome 확장 프로그램입니다. 이 글에서는 주요 기능, 설치 방법, 그리고 실제 활용법에 대해 알아보겠습니다.
 
 ---

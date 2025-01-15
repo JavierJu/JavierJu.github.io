@@ -14,7 +14,7 @@ date: 2025-01-14
 last_modified_at: 2025-01-14
 ---
 
-# Vite란 무엇인가?
+## Vite란 무엇인가?
 
 Vite는 **빠르고 효율적인 개발 환경**을 제공하기 위해 설계된 **프론트엔드 빌드 도구**입니다. 주로 React, Vue, Svelte, Vanilla JavaScript 등 다양한 프레임워크와 함께 사용됩니다. Vite는 ES 모듈 기반의 빠른 개발 서버와, Rollup 기반의 빌드 프로세스를 제공합니다.
 

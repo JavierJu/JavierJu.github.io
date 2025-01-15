@@ -4,7 +4,6 @@ excerpt: "React.js 초보자들이 TypeScript에 대한 걱정 없이 학습을 
 categories:
   - React
   - TypeScript
-  - JavaScript
   
 tags:
   - [React, TypeScript, JavaScript, Frontend]

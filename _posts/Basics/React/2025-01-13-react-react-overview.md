@@ -3,7 +3,6 @@ title: "React.js의 개요와 특징: 사용자 인터페이스 개발의 혁신
 excerpt: "React.js의 주요 특징, 장점, 컴포넌트 기반 설계, 상태 관리, Virtual DOM 등 현대 웹 개발에서 필수적인 요소를 상세히 설명합니다."
 categories:
   - React
-  - JavaScript
   - Frontend
   
 tags:
@@ -14,8 +13,6 @@ toc_sticky: true
 date: 2025-01-13
 last_modified_at: 2025-01-13
 ---
-
-## React.js의 개요와 특징
 
 React.js는 Facebook에서 개발한 오픈 소스 JavaScript 라이브러리로, **사용자 인터페이스(User Interface, UI)를 구축**하는 데 사용됩니다. React는 특히 단일 페이지 애플리케이션(SPA) 개발에 강점이 있으며, 대규모 애플리케이션에서도 효율적이고 관리 가능한 UI를 만들 수 있도록 설계되었습니다.
 

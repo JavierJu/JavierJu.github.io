@@ -13,8 +13,6 @@ date: 2025-01-14
 last_modified_at: 2025-01-14
 ---
 
-## Create React App(CRA): 완벽 가이드
-
 **Create React App (CRA)**는 React 애플리케이션을 쉽게 생성하고 시작할 수 있도록 돕는 공식 도구입니다. 이 도구를 사용하면 React 개발에 필요한 초기 설정(예: Webpack, Babel 등)을 신경 쓸 필요 없이 빠르게 프로젝트를 시작할 수 있습니다. 아래는 CRA에 대한 자세한 설명입니다.
 
 ---

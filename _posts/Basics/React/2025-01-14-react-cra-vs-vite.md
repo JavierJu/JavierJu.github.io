@@ -13,7 +13,6 @@ date: 2025-01-14
 last_modified_at: 2025-01-14
 ---
 
-# React 개발: Create React App(CRA) vs Vite, 무엇을 선택할까?
 React 애플리케이션 개발을 시작할 때, 어떤 도구를 선택해야 할지 고민되곤 합니다. 이 글에서는 **Create React App (CRA)**와 **Vite**의 차이점, 장단점, 그리고 대안들에 대해 자세히 살펴보겠습니다.
 
 ---
