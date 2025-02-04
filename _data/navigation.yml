@@ -9,7 +9,7 @@ main:
   - title: "GitHub"
     url: https://github.com/JavierJu
 
-  - title: "Projects"
+  # - title: "Projects"
   #   url: /projects/
 
   - title: "Portfolio"
