@@ -16,8 +16,6 @@ date: 2025-02-04
 last_modified_at: 2025-02-04
 ---
 
-# AWS에서 MongoDB, Cloudinary, Render를 통합 구현하는 방법
-
 Yelp Camp 프로젝트에서 MongoDB(데이터베이스), Cloudinary(이미지 저장), Render(앱 배포)를 사용하고 있다면, AWS에서 이 모든 기능을 통합하여 운영할 수 있습니다. 본 글에서는 AWS에서 각 서비스를 대체하는 방법과 코드 예제를 설명합니다.
 
 ---

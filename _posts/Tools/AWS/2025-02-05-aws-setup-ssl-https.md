@@ -16,8 +16,6 @@ date: 2025-02-05
 last_modified_at: 2025-02-05
 ---
 
-# AWS에서 SSL 인증서 설정하고 HTTPS 적용하는 방법
-
 웹 애플리케이션을 운영할 때 HTTPS를 적용하면 보안이 강화되고 SEO에도 긍정적인 영향을 미칩니다. AWS에서는 **AWS Certificate Manager(ACM)**과 **Application Load Balancer(ALB)**를 사용하여 손쉽게 SSL 인증서를 설정할 수 있습니다. 이 글에서는 **Nginx나 Apache를 사용하지 않고** AWS 환경에서 HTTPS를 적용하는 방법을 설명합니다.
 
 ---

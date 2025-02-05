@@ -16,8 +16,6 @@ date: 2025-02-04
 last_modified_at: 2025-02-04
 ---
 
-## VS Code에서 AWS EC2 인스턴스 원격 접속하기
-
 AWS EC2 인스턴스를 VS Code에서 원격으로 관리하려면 **Remote-SSH 확장**을 활용하면 됩니다. 이 글에서는 SSH 키 설정부터 접속 방법까지 자세히 설명합니다.
 
 ---

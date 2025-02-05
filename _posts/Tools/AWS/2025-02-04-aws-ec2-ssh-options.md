@@ -17,8 +17,6 @@ date: 2025-02-04
 last_modified_at: 2025-02-04
 ---
 
-# AWS EC2에 SSH 접속하는 방법: MobaXterm이 필수일까?
-
 AWS EC2 인스턴스에 접속하여 웹 서비스를 설정하려면 SSH(Secure Shell) 접속이 필수입니다. 많은 사람들이 **MobaXterm**을 추천하지만, 꼭 사용해야 하는지 궁금할 수 있습니다. 이번 글에서는 **MobaXterm과 함께 다른 대안들도 비교하여 설명**하겠습니다.
 
 ## MobaXterm이란?
