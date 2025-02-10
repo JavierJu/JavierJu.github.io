@@ -1,26 +1,22 @@
 ---
-
 title: "AWS S3 정적 웹사이트 호스팅: EC2에서 배포하고 Express는 API 서버로 전환"
 excerpt: "AWS S3를 활용한 정적 웹사이트 호스팅 방법을 설명합니다. EC2에서 S3로 정적 파일을 배포하고, Express 서버를 API 전용으로 전환하는 과정을 코드 예제와 함께 소개합니다."
 categories:
-
-- AWS
-- Cloud
-- DevOps
-- Web Hosting
+  - AWS
+  - Cloud
+  - DevOps
+  - Web Hosting
 
 tags:
+  - [AWS, S3, 정적 웹사이트, 배포, 웹 호스팅, Express, API]
 
-- [AWS, S3, 정적 웹사이트, 배포, 웹 호스팅, Express, API]
-  permalink: /aws/s3-static-web-hosting/
-  toc: true
-  toc_sticky: true
-  date: 2025-02-08
-  last_modified_at: 2025-02-08
+permalink: /aws/s3-static-web-hosting/
+toc: true
+toc_sticky: true
+date: 2025-02-08
+last_modified_at: 2025-02-08
 
 ---
-
-# AWS S3 정적 웹사이트 호스팅: EC2에서 배포하고 Express는 API 서버로 전환
 
 AWS S3를 이용하면 정적 웹사이트를 손쉽게 호스팅할 수 있습니다. 이번 글에서는 **EC2에서 AWS CLI를 사용하여 S3로 정적 파일을 업로드**하는 방법과 Express 서버를 API 전용으로 전환하는 과정을 소개합니다.
 
